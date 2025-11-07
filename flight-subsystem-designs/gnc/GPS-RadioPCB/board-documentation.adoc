@@ -1,15 +1,43 @@
-= Radio-GPS PCB
-The 2 Space Maniac boards, Murgas and Celeste will rest on the board, and the connectors of both boards will connect to that on the GPS-RadioPCB
+Global Navigation and Communications Board.
 
-Purpose for board: 
-First reason is to achieve accurate time sync across the devices on satellite by using a low jitter Fanout Chip for the GPS PPS output.
-Second reason is to receive the Radio and GPS outputs and link them to PC104 to the rest of satellite. this is required as the connector of both Space Maniac Modules are not directly compatible to PC104.
+Purpose and Overview: 
+Provides power to Space Maniac's Celeste (GNSS Receiver) and Murgas (UHF/VHF transceiver), and interfaces their control, networking and data lines with Cubesat PC104. 
+Features the Texas Instruments LMK class Clock signal Fanout buffer chip, to produce 3 separate copies of PPS (Pulse Per Second) signal, from GNSS receiver, whch is critical for timing.
 
-Molex SlimStack :
+Related Pulse-A Desgign Requirements: 
+
+- Communications
+1. Communication subsystem shall receive data uplinked from the RFGS
+Need be tested*
+2. The communications subsystem shall receive commands uplinked from RFGS
+Need be tested*
+3. The communications subsystem shall transmit downlink data to RFGS
+Need be tested*
+4. Communications subsystem shall transmit the satellite's GPS data to the RFGS/
+Need be tested*
+
+- Navigation
+1. Satellite shall provide Data to the optical payload for downlink.
+Need be tested
+2. Satellite shall be able to determine its location through GPS
+Compliant
+3. The Satellite shall be capable of activating all essential systems at deployment.
+Compliant
+
+
+Software Accompaniments:
+1. In order to activate the timing system automatically upon deployment, the gps and timing daemons, gpsd and chrony are installed to the Beaglebone via linux.
+2. To access timing and location information, the Daemons are configured to access these data and update system time accordingly. 
+3. Daemons are softwares that automcatically start upon system activation.
+
+Components 
+
+Fanout chip https://www.ti.com/product/LMK1C1104
+Provides Low Jitter PPS signal fanout to ADCS, Payload controller and OBC via PC104. To Achieve high time accuracy across the sub-systems.
+
+Molex SlimStack
 This is the connector used by both Space Maniac boards. Traces will be made to link its pins to that of PC104.
 
-link:https://www.ti.com/product/LMK1C1104[LMK1C1104 Fanout Chip:]
-This takes input of PPS signal from GPS and fanouts into 4 PPS lines with low jitter, which helps achieve high time accuracy across the devices, OBC, Payload Controller, ADCS and Radio. This prevents inconsistencies in task logging and command carrying out.
 
 Outputs of Radio:
 I2C, CAN.
