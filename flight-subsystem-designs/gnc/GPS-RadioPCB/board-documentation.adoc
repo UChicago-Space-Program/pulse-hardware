@@ -4,6 +4,21 @@ Purpose and Overview:
 Provides power to Space Maniac's Celeste (GNSS Receiver) and Murgas (UHF/VHF transceiver), and interfaces their control, networking and data lines with Cubesat PC104. 
 Features the Texas Instruments LMK class Clock signal Fanout buffer chip, to produce 3 separate copies of PPS (Pulse Per Second) signal, from GNSS receiver, whch is critical for timing.
 
+Murgas Choice Justification:
+Power Consumption - receiving 0.14 W
+Power Consumption - Transmitting 3.30 W
+TX data rate 0.1 to 38.4 kbps
+Meets requirement that Communications subsystem capable of transmitting to RFGS at rate of 1kpbs < 
+This data rate ensures reliability estimated by Artemis. 
+CSP over CAN speed up to 1Mbit/s
+MMXC - Micro-Miniature Coaxial connector to Radio Antenna (50 Ohms)
+
+Celeste Choice Justification:
+CAN of 1Mbit/s 
+Antenna of MMCX connector, 50 Ohms
+Accuracy time 5ns, velocity 0.1m/s, position 2.0m CEP
+
+
 Related Pulse-A Desgign Requirements: 
 
 - Communications
