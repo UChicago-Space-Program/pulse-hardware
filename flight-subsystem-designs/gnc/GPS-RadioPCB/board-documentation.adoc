@@ -67,11 +67,15 @@ I2C, CAN : sends timestamps in accordance to each PPS pulse.
 Individual Parts Justification : 
 1.
 1G pin 10k Pull up resistor, this protects chip during power-up and power-down. High level input voltage is 0.75 x VDD = 2.475 and high level input (Leakage) current is 50 micro A. Input Leakage Current is the current that flows into pin transistor when not actively driven internally. 2.475, the high level input voltage is the threshold to be recognised as high. 3.3V - 10k x 50mu = 2.8 > 2.475. So this resistance value is used.
+
 2.
 I2C Pull up resistor of 3.3 k Ohm to 3.3 V recommended
+
 3.
 CAN requires 120 KOhm terminal Resistor
+
 4.
 Fanout Chip Power Supply requires Decoupling capacitors and Inducting ferrite bead, It is recommended that The distance between the Capacitors and Power supply be as close as possible. 
+
 5.
 Ext Reset EPC2014 MosFET is needed near the GNSS Ext RST pin, to use this feature. 
