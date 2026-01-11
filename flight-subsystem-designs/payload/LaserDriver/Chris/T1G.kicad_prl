@@ -1,21 +1,19 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [
-      "3V3"
-    ],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.5899999737739563,
+      "images": 0.6,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.8399999737739563
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -31,6 +29,7 @@
       "zones": true
     },
     "visible_items": [
+      "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
@@ -39,6 +38,7 @@
       "footprints_back",
       "footprint_values",
       "footprint_references",
+      "tracks",
       "drc_errors",
       "drawing_sheet",
       "bitmaps",
@@ -50,23 +50,20 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_000010ff_ffffffad",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PowerDistribution.kicad_prl",
+    "filename": "T1G.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -88,9 +85,7 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
     "col_widths": [
       156,
@@ -101,8 +96,6 @@
       103,
       103,
       74,
-      103,
-      103,
       103,
       103
     ],
