@@ -7,7 +7,7 @@
 	(title_block
 		(title "Laser Driver")
 		(date "2026-02-01")
-		(rev "v0.1")
+		(rev "v0.3")
 		(company "UChicago Space Program")
 		(comment 1 "Reviewing Engineer: Graydon SK")
 		(comment 2 "Engineer: Dylan Hu")
@@ -3088,6 +3088,12 @@
 		(uuid "6ef40e99-a495-4a35-901d-bf5035e5bb2b")
 	)
 	(junction
+		(at 201.93 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "752898bb-aea4-4d6a-9585-cb0c0750b4cd")
+	)
+	(junction
 		(at 93.98 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3128,6 +3134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2451616-aeb8-48ba-9718-6918272ee7aa")
+	)
+	(junction
+		(at 93.98 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73883f7-aa9e-49a1-92d3-8ab5d94ebef9")
 	)
 	(junction
 		(at 201.93 130.81)
@@ -7047,6 +7059,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 201.93 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7db2ffc7-1235-4698-ae95-9ea82db27f52")
+		(property "Reference" "#PWR032"
+			(at 201.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3ea7fb-34f4-45d6-b24a-50fd94594dbc")
+		)
+		(instances
+			(project "LaserDriver"
+				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 210.82 127 180)
 		(unit 1)
@@ -7321,6 +7398,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 93.98 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f501dde-c0cc-4357-9a25-92a6eef8bbfc")
+		(property "Reference" "C5"
+			(at 96.52 137.1662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 96.52 139.7062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7010d0c5-e4ec-46c2-9aab-c7d5662d8850")
+		)
+		(pin "2"
+			(uuid "8d9f034d-6ccd-4169-baea-ec147fa1ec23")
+		)
+		(instances
+			(project ""
+				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 186.69 0)
 		(unit 1)
@@ -7447,6 +7594,76 @@
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e78708-56ab-48e3-92d4-26b4d34b830f")
+		(property "Reference" "C6"
+			(at 204.47 137.1662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 204.47 139.7062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64af1a50-d0a0-4352-8b32-97ad235bed49")
+		)
+		(pin "2"
+			(uuid "61d65b8c-df37-4696-b977-c425947e890f")
+		)
+		(instances
+			(project "LaserDriver"
+				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9652,6 +9869,71 @@
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
 					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9fb9d26-2823-4bf7-affe-2aec36b34c04")
+		(property "Reference" "#PWR031"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c3c9d9e-9515-4449-b4f7-e174227184fe")
+		)
+		(instances
+			(project ""
+				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
