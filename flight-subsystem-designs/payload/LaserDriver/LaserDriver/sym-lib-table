@@ -3,4 +3,5 @@
   (lib (name "MAX3967AETG")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX3967AETG.kicad_sym")(options "")(descr ""))
   (lib (name "SY100ELT22ZG-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SY100ELT22ZG-TR.kicad_sym")(options "")(descr ""))
   (lib (name "NCV8161AMX330TBG")(type "KiCad")(uri "${KIPRJMOD}/symbols/NCV8161AMX330TBG.kicad_sym")(options "")(descr ""))
+  (lib (name "LDL212PV33R")(type "KiCad")(uri "${KIPRJMOD}/symbols/LDL212PV33R.kicad_sym")(options "")(descr ""))
 )
