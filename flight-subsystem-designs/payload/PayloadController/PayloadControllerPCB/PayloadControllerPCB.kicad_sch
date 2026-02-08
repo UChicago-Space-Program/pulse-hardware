@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "ab286999-0fbe-469b-b161-54b65f8cdf9b")
 	(paper "A4")
+	(title_block
+		(title "Payload Controller")
+		(rev "1.0")
+		(company "UChicago Space Program")
+	)
 	(lib_symbols
 		(symbol "+3.3V_1"
 			(power)
@@ -3086,10 +3091,10 @@
 	)
 	(text "PC104 Header\n"
 		(exclude_from_sim no)
-		(at 31.242 32.512 0)
+		(at 45.212 38.608 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "12ed3054-cc5b-4ab4-8fec-9f7c4eec528c")
@@ -3513,10 +3518,6 @@
 	(no_connect
 		(at 102.87 86.36)
 		(uuid "dfffb16f-6101-4583-95b2-d2d69109fc55")
-	)
-	(no_connect
-		(at 85.09 55.88)
-		(uuid "e16a8306-fa3b-42e6-89ce-7c2051953b93")
 	)
 	(no_connect
 		(at 102.87 96.52)
@@ -4252,25 +4253,15 @@
 		)
 		(uuid "9eea7b88-eefd-43ae-8478-32fffee8cc4b")
 	)
-	(label "CANL"
-		(at 269.24 99.06 0)
+	(label "SYSRST"
+		(at 85.09 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a9b5691e-2898-4f13-99a4-522d38534d69")
-	)
-	(label "CANH"
-		(at 269.24 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c71e0ade-832f-4661-8d8f-c0df46322852")
+		(uuid "b509328b-2b52-49db-9509-0102c6a102a7")
 	)
 	(label "DCAN1RX"
 		(at 161.29 57.15 0)
@@ -4314,6 +4305,28 @@
 			)
 		)
 	)
+	(global_label "CAN_H"
+		(shape input)
+		(at 269.24 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5347735d-438e-48bc-add5-ba9dcfb811ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.2124 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CLK_2"
 		(shape input)
 		(at 101.6 58.42 180)
@@ -4332,6 +4345,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L"
+		(shape input)
+		(at 269.24 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "815d0c04-32f7-49c1-854f-0437a4bd9770")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
