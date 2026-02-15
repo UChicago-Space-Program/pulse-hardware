@@ -786,7 +786,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/PULSE.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://UCSP_template.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
@@ -803,6 +803,34 @@
     [
       "7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3",
       "Root"
+    ],
+    [
+      "a76f50d1-2637-4891-a606-918f64f7376d",
+      "Switches"
+    ],
+    [
+      "0c8af498-67cf-4094-9dfa-cf55c10777f9",
+      "Regulators"
+    ],
+    [
+      "ef185ab7-30a8-41dd-b5fb-593db362750d",
+      "Sensors"
+    ],
+    [
+      "e5a3dfcb-cd7b-4560-b476-c806ed59e5ac",
+      "Charging"
+    ],
+    [
+      "62eb2b30-6ec5-4410-bb3a-c465abc3378f",
+      "Connectors"
+    ],
+    [
+      "e2fe28e9-06f2-4dc7-9ae6-d1256452e48d",
+      "Control"
+    ],
+    [
+      "187508dd-3066-4e98-aa1b-85dcaf36b531",
+      "Deployment"
     ]
   ],
   "text_variables": {}
