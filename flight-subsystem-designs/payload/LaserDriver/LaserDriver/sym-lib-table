@@ -4,4 +4,6 @@
   (lib (name "SY100ELT22ZG-TR")(type "KiCad")(uri "${KIPRJMOD}/symbols/SY100ELT22ZG-TR.kicad_sym")(options "")(descr ""))
   (lib (name "NCV8161AMX330TBG")(type "KiCad")(uri "${KIPRJMOD}/symbols/NCV8161AMX330TBG.kicad_sym")(options "")(descr ""))
   (lib (name "LDL212PV33R")(type "KiCad")(uri "${KIPRJMOD}/symbols/LDL212PV33R.kicad_sym")(options "")(descr ""))
+  (lib (name "UCC33421")(type "KiCad")(uri "${KIPRJMOD}/symbols/UCC33421.kicad_sym")(options "")(descr ""))
+  (lib (name "CustomSymbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/CustomSymbols.kicad_sym")(options "")(descr ""))
 )
