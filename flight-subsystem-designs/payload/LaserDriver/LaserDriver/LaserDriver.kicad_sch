@@ -5682,7 +5682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "010acc50-32eb-4151-b9ab-5c92f16c7157")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 99.06 198.12 0)
 			(effects
 				(font
@@ -5732,7 +5732,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02fb309f-96db-4922-9983-ab9a4b6198c6")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 204.47 111.76 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5882,7 +5882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e9e8fd-614b-40ff-ad14-41ecdcc2cfd2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR07"
 			(at 80.01 78.74 0)
 			(effects
 				(font
@@ -5932,7 +5932,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR032")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6018,7 +6018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e346476-7198-461a-835a-3a3298985159")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 207.01 123.1899 0)
 			(effects
 				(font
@@ -6074,7 +6074,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3b8f8d-85cc-4092-880e-e698a00b72e7")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 119.38 54.6099 0)
 			(effects
 				(font
@@ -6144,7 +6144,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6377,7 +6377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fb2d1ec-8ce8-4f30-86f1-2eb636326fd5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6443,7 +6443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdaa001-1fed-4251-9ddd-c42b75903fb3")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 85.09 26.6699 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6512,7 +6512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2657213c-6123-4b77-8253-6a841787e95b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 49.53 198.12 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27099444-2912-47a8-a576-88ed4cdb390a")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 45.72 64.7699 0)
 			(effects
 				(font
@@ -6632,7 +6632,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6787,7 +6787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33290e77-41f0-4069-a109-c08fa6406f20")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR015"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR031")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6921,7 +6921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38754f01-8f73-4331-8b2c-41eb97fa32cd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 39.37 198.12 0)
 			(effects
 				(font
@@ -6971,7 +6971,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6987,7 +6987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4643a7bf-5c1c-47fe-a232-ba5e822d3289")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 101.6 185.4199 0)
 			(effects
 				(font
@@ -7041,7 +7041,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7124,7 +7124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a692ac-61e8-4622-9f1a-5028c2bc3198")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 170.18 68.58 0)
 			(effects
 				(font
@@ -7174,7 +7174,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60472cb3-e18a-433f-a8fa-4672bf9f7199")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 77.47 66.0399 0)
 			(effects
 				(font
@@ -7332,7 +7332,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R15")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7415,7 +7415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74644e93-44f8-4cee-87d6-08990a0b65fe")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 162.56 27.94 90)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "748f0005-adbb-46a6-897c-15774fd123fd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 213.36 119.38 0)
 			(effects
 				(font
@@ -7532,7 +7532,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75cc547b-0657-4edf-84c7-8b4a62b94aae")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 49.53 175.26 0)
 			(effects
 				(font
@@ -7598,7 +7598,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7613,7 +7613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76932102-fbf7-4a77-9995-a86be86e18aa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 96.52 111.76 0)
 			(effects
 				(font
@@ -7663,7 +7663,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7678,7 +7678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "805ffb9e-06ec-48ba-a9b6-45860b4e62d1")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 208.788 123.19 0)
 			(effects
 				(font
@@ -7732,7 +7732,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7747,7 +7747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c050d69-3636-4013-a8ee-9dbfaf979d01")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 257.81 60.96 0)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7813,7 +7813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "907122a3-391c-45f5-bfcc-439b34a63752")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 111.76 175.2599 0)
 			(effects
 				(font
@@ -7867,7 +7867,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7882,7 +7882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "988d6b22-1a8c-4239-9283-113a59491061")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 248.92 43.688 90)
 			(effects
 				(font
@@ -7934,7 +7934,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7950,7 +7950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f96a0d-d874-4d98-ae6e-9680f0c6db94")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR016"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR030")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8015,7 +8015,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f501dde-c0cc-4357-9a25-92a6eef8bbfc")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 101.6 107.442 90)
 			(effects
 				(font
@@ -8069,7 +8069,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1059f99-4523-44a7-a287-6e5d3744d16d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 109.22 198.12 0)
 			(effects
 				(font
@@ -8134,7 +8134,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8149,7 +8149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4e78708-56ab-48e3-92d4-26b4d34b830f")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 208.28 107.696 90)
 			(effects
 				(font
@@ -8201,7 +8201,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8440,7 +8440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b341b328-4072-4db8-ab64-e2c93a583320")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -8490,7 +8490,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8505,7 +8505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb42a6b5-f7a6-4558-a5dd-3ee84ee5be8c")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 67.818 103.632 0)
 			(effects
 				(font
@@ -8628,7 +8628,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8643,7 +8643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb89560c-44dd-4e87-aad5-b1d3bff84942")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 203.2 139.7 0)
 			(effects
 				(font
@@ -8693,7 +8693,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8709,7 +8709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3cebaa5-40db-46a9-b8f7-835fa31b1452")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 170.18 36.83 0)
 			(effects
 				(font
@@ -8759,7 +8759,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8774,7 +8774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6cd3e73-c849-4f16-92dc-dae739623118")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -8824,7 +8824,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8840,7 +8840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9157f68-efb6-485c-88e8-a6931eb235b7")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 96.52 26.1503 90)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c92786bf-f82e-4bb5-ad71-499d8df9e04d")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 101.6 175.2599 0)
 			(effects
 				(font
@@ -8964,7 +8964,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9119,7 +9119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd9f1f46-5d84-49c3-872d-ae4c0f5fd44f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -9169,7 +9169,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9253,7 +9253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7643466-7352-4acc-8f27-6e363da66eb3")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 93.98 139.7 0)
 			(effects
 				(font
@@ -9303,7 +9303,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9e9883d-b961-4801-a072-b4d2ac92e145")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 102.108 123.444 0)
 			(effects
 				(font
@@ -9372,7 +9372,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9526,7 +9526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00efd89-8edb-4fb8-94e1-7084d9e87996")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 97.79 49.53 0)
 			(effects
 				(font
@@ -9605,7 +9605,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9686,7 +9686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fb5367-0ea3-4a3e-a0e0-5a30079bb78e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -9736,7 +9736,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9751,7 +9751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e351b01f-55af-40f2-b020-528168ef070c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 240.03 50.8 0)
 			(effects
 				(font
@@ -9801,7 +9801,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9883,7 +9883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7a5ef20-eaec-4fca-9daa-14d738ec47a1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 156.21 43.18 0)
 			(effects
 				(font
@@ -9933,7 +9933,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9948,7 +9948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e830a17e-b4d5-4ddc-b93a-6a6f1c18f2bc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 133.35 129.54 0)
 			(effects
 				(font
@@ -9998,7 +9998,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10014,7 +10014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe438a9-510d-49d8-9654-034435b3046e")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 95.25 125.7301 0)
 			(effects
 				(font
@@ -10070,7 +10070,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10223,7 +10223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21578dd-4800-4699-9f56-2daea63785fd")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 45.72 73.6599 0)
 			(effects
 				(font
@@ -10277,7 +10277,7 @@
 		(instances
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10441,7 +10441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad7323c-904a-46ea-9bda-905c7c4a2b4f")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 111.76 185.4199 0)
 			(effects
 				(font
@@ -10495,7 +10495,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10510,7 +10510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff5fdede-714f-46d8-a68f-760a7b50867f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 105.41 119.38 0)
 			(effects
 				(font
@@ -10560,7 +10560,7 @@
 		(instances
 			(project "LaserDriver"
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
