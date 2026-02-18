@@ -2678,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 87.63) (xy 184.15 82.55)
+			(xy 184.15 87.63) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3048,16 +3048,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 82.55) (xy 191.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f557f832-8d18-4b9c-a120-9fa6af53ebaa")
-	)
-	(wire
-		(pts
 			(xy 135.89 59.69) (xy 135.89 57.15)
 		)
 		(stroke
@@ -3135,16 +3125,6 @@
 			(justify left bottom)
 		)
 		(uuid "572980b1-a912-46a2-a8d8-a36e6796506a")
-	)
-	(label "ISO_VIN"
-		(at 191.77 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78b0c00a-023d-40bd-a0fe-6ee5b4d1ae66")
 	)
 	(label "RAW_GND"
 		(at 124.46 62.23 0)
@@ -3617,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -3753,7 +3733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_1Pin"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -4193,6 +4173,72 @@
 			(project ""
 				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb99d1f3-5e27-42f4-8a28-9e8fca9b5f8a")
+		(property "Reference" "#PWR034"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba47f9f8-5874-4fd8-9eca-4e4eebc0a970")
+		)
+		(instances
+			(project ""
+				(path "/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

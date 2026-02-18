@@ -3895,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 52.07) (xy 196.85 52.07)
+			(xy 182.88 52.07) (xy 196.85 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5633,8 +5633,8 @@
 		)
 		(uuid "c272a59c-9014-4eda-bb93-d38b73513985")
 	)
-	(label "SIGNAL_IN"
-		(at 185.42 52.07 0)
+	(label "ISO_SIGNAL_IN"
+		(at 182.88 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
