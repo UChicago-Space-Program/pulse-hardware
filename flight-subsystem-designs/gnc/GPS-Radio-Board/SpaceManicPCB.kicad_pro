@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.18,
-          "width": 3.18
+          "drill": 0.0,
+          "height": 6.35,
+          "width": 6.35
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.0,
+          "width": 0.1
         }
       ],
       "drc_exclusions": [],
@@ -123,8 +128,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -135,10 +140,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -189,10 +194,7 @@
       "track_widths": [
         0.0,
         0.0,
-        0.2,
-        0.3,
-        0.4,
-        0.5
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,10 +226,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.3,
-          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -452,7 +450,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -472,7 +470,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SpaceManiacPCB.kicad_pro",
+    "filename": "SpaceManicPCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -493,7 +491,29 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 4
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1,
+        "name": "Differential Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.6,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -501,7 +521,56 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/5V_S"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/3.3V_S"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "RST_CELESTE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/PPS"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/I2C1_SDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/I2C1_SCL"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/EXT_RST"
+      },
+      {
+        "netclass": "Differential Pair",
+        "pattern": "/GPS Celeste Connector/CAN_P"
+      },
+      {
+        "netclass": "Differential Pair",
+        "pattern": "/GPS Celeste Connector/CAN_N"
+      },
+      {
+        "netclass": "Differential Pair",
+        "pattern": "/RS485_N"
+      },
+      {
+        "netclass": "Differential Pair",
+        "pattern": "/RS485_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -673,7 +742,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -688,6 +757,22 @@
     [
       "ab286999-0fbe-469b-b161-54b65f8cdf9b",
       "Root"
+    ],
+    [
+      "0bd43861-0d07-4bc9-9e0d-00fe64a75404",
+      "EXT_RST Reset Signal High Pass Filter"
+    ],
+    [
+      "a8137ce5-abe3-4fd7-b87e-35fec284eb7f",
+      "PC104"
+    ],
+    [
+      "1d381952-c56b-4b7b-aeaf-747e1872cd48",
+      "Murgas_Radio_Connector"
+    ],
+    [
+      "ba169620-607c-4feb-bfef-caeaf57c79d8",
+      "GPS Celeste Connector"
     ]
   ],
   "text_variables": {}
