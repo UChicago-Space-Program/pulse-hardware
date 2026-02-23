@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0139_T2444+4_MXM"
+		(property "Footprint" "footprints:21-0139_T2444&plus_4_MXM"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -52,14 +52,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "MAX3967AETG+"
@@ -237,8 +229,44 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 0 -12.7 0)
+				(length 7.62)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -15.24 0)
+				(length 7.62)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 -17.78 0)
 				(length 7.62)
 				(name "OUT+"
 					(effects
@@ -256,7 +284,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(length 7.62)
 				(name "OUT-"
 					(effects
@@ -274,7 +302,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -345,44 +373,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 43.18 -5.08 180)
-				(length 7.62)
-				(name "IN+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 43.18 -7.62 180)
-				(length 7.62)
-				(name "IN-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
-				(at 43.18 -10.16 180)
+				(at 43.18 -5.08 180)
 				(length 7.62)
 				(name "MODSET"
 					(effects
@@ -400,7 +392,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 -12.7 180)
+				(at 43.18 -7.62 180)
 				(length 7.62)
 				(name "MON"
 					(effects
@@ -418,7 +410,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 43.18 -15.24 180)
+				(at 43.18 -10.16 180)
 				(length 7.62)
 				(name "EP"
 					(effects
@@ -436,7 +428,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -17.78 180)
+				(at 43.18 -12.7 180)
 				(length 7.62)
 				(name "VEE"
 					(effects
@@ -454,7 +446,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -20.32 180)
+				(at 43.18 -15.24 180)
 				(length 7.62)
 				(name "VEEOUT"
 					(effects
@@ -474,7 +466,7 @@
 		)
 		(symbol "MAX3967AETG+_1_1"
 			(pin output line
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(length 7.62)
 				(hide yes)
 				(name "OUT+"
@@ -493,7 +485,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(length 7.62)
 				(hide yes)
 				(name "OUT-"
@@ -512,7 +504,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(length 7.62)
 				(hide yes)
 				(name "NC"
@@ -569,7 +561,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 -20.32 180)
+				(at 43.18 -15.24 180)
 				(length 7.62)
 				(hide yes)
 				(name "VEEOUT"

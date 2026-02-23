@@ -15,7 +15,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|122772874|79700763|0ec37591-3cca-437b-a8a4-e095ebe5df2c|16ab1092-ddb1-426a-bb42-9ba4ef477589",
+          "OK - footprint"
+        ],
+        [
+          "clearance|122772874|81097763|95721aa7-6ec1-44ef-82f1-34328cd4b32a|16ab1092-ddb1-426a-bb42-9ba4ef477589",
+          "OK - pad"
+        ],
+        [
+          "clearance|123273000|79700763|62e2e8cd-9a29-4e00-b9e8-c3a5dd2d380e|16ab1092-ddb1-426a-bb42-9ba4ef477589",
+          "OK - footprint"
+        ],
+        [
+          "clearance|123273000|81097763|1d68661d-8ec8-4b31-bd00-5fcc0af2a4f8|16ab1092-ddb1-426a-bb42-9ba4ef477589",
+          "OK - footprint"
+        ],
+        [
+          "clearance|123773126|81097763|0f6de631-4ecd-4cd8-b5e8-52cad153b4f7|16ab1092-ddb1-426a-bb42-9ba4ef477589",
+          "OK - footprint"
+        ],
+        [
+          "courtyards_overlap|168045000|62355000|14787da6-c6dd-4d6a-b860-8a46f965daf5|5f12bcda-d779-47f7-b835-59f3aec86fd3",
+          "intended"
+        ],
+        [
+          "courtyards_overlap|170855000|81855000|92083b52-4a8e-4592-bfee-840f913132fe|9b85a2e0-f90e-4942-a60c-ac6e6a5dd913",
+          "intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,11 +152,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
-        "min_connection": 0.0,
+        "min_clearance": 0.09,
+        "min_connection": 0.09,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
+        "min_hole_clearance": 0.28,
         "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -135,10 +164,10 @@
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.2,
-        "min_via_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -192,7 +221,8 @@
         0.2,
         0.3,
         0.35,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -246,12 +276,60 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|431800|901700|eb9f1a16-fa14-479b-afa8-89f25232fa4f|00000000-0000-0000-0000-000000000000|||",
+        "graydon adjusted pin positions to be better"
+      ],
+      [
+        "multiple_net_names|1968500|1104900|ba69a1dd-7239-47c8-99ba-6bf18ef8a964|c5024eda-849a-44b6-ad58-eb2c3bed8022|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0",
+        "this is a hidden pin issue but it's okay"
+      ],
+      [
+        "multiple_net_names|889000|1282700|0f829015-ce4e-4375-842c-3f2d854f0b6d|af083770-faec-4134-a8bc-10fe9451801c|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0",
+        "i think this is a hidden pin issue but it's okay"
+      ],
+      [
+        "pin_to_pin|1384300|520700|052823a8-e28c-43fb-90ee-103a35213b37|36aba985-4141-4c90-9d00-65eb1fa063b7|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1384300|546100|36aba985-4141-4c90-9d00-65eb1fa063b7|ee26ddd7-743e-4285-9d12-a7658b51be7f|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1384300|571500|ee26ddd7-743e-4285-9d12-a7658b51be7f|41c5bd33-f093-4e77-abe6-3f9443642c71|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1384300|596900|41c5bd33-f093-4e77-abe6-3f9443642c71|ebce0823-b6a8-4804-9891-6e2ab364b584|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
         "pin_to_pin|1524000|1231900|70c64170-46ac-4acf-aaa3-0515a12d0446|524d2542-14b7-452a-873a-b61f20e10591|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0",
         "same pin"
       ],
       [
         "pin_to_pin|1524000|1282700|217949c4-4414-4ee7-9fcd-85dac4e9a7e5|722812fd-7df5-4dfb-835a-6018835812b1|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0",
         "same pin"
+      ],
+      [
+        "pin_to_pin|1841500|469900|11aa688e-3bc0-40d4-b0d0-6c4b22b98570|b06fb868-292b-47da-896b-1d61df887952|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1841500|495300|ae965b40-cb47-4eab-8f4b-2baaebbbc003|11aa688e-3bc0-40d4-b0d0-6c4b22b98570|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1841500|520700|fd851d17-ceaf-482b-8cea-78d98fed61b0|ae965b40-cb47-4eab-8f4b-2baaebbbc003|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|1841500|546100|f471ffac-a6b1-474a-927b-d78abacf638c|fd851d17-ceaf-482b-8cea-78d98fed61b0|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
+      ],
+      [
+        "pin_to_pin|431800|1003300|51c2a45b-7d02-4d12-bf2e-9759751992d2|f471ffac-a6b1-474a-927b-d78abacf638c|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a|/f859ecae-83c7-438c-b2af-b7873d5255a0/55c34013-2f41-4006-a024-9ccd7006f77a",
+        "it's fine"
       ],
       [
         "pin_to_pin|444500|1231900|562aacb0-6ff9-4f1b-8c64-541a3afa5682|c7862a3a-dc6a-4776-a1d3-daad1486b861|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0|/f859ecae-83c7-438c-b2af-b7873d5255a0",
@@ -688,6 +766,10 @@
     [
       "f859ecae-83c7-438c-b2af-b7873d5255a0",
       "Root"
+    ],
+    [
+      "55c34013-2f41-4006-a024-9ccd7006f77a",
+      "Power Input and Filtering"
     ]
   ],
   "text_variables": {}
