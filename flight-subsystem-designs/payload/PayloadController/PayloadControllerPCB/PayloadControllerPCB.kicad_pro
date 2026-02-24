@@ -638,6 +638,10 @@
     [
       "989df9fc-9bfd-437a-be75-470077a57595",
       "Connector B"
+    ],
+    [
+      "ea1f1cc7-8d0c-48c3-97bb-24b6994bcba0",
+      "Payload Connectors"
     ]
   ],
   "text_variables": {}
