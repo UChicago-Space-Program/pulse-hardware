@@ -11395,6 +11395,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 139.7) (xy 384.81 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b43cb8-ce90-4b87-8906-df977f5ba984")
+	)
+	(wire
+		(pts
 			(xy 140.97 154.94) (xy 140.97 148.59)
 		)
 		(stroke
@@ -11415,7 +11425,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 130.81) (xy 384.81 137.16)
+			(xy 384.81 130.81) (xy 384.81 132.08)
 		)
 		(stroke
 			(width 0)
@@ -14722,7 +14732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 137.16 0)
+		(at 384.81 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14731,7 +14741,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8acca7-6e07-4027-8cc9-59cfccfe4d87")
 		(property "Reference" "#PWR020"
-			(at 384.81 143.51 0)
+			(at 384.81 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14740,7 +14750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 142.24 0)
+			(at 384.81 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14748,7 +14758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 137.16 0)
+			(at 384.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14757,7 +14767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 137.16 0)
+			(at 384.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14766,7 +14776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 384.81 137.16 0)
+			(at 384.81 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,6 +15723,76 @@
 			(project "Ian OBC Recreation"
 				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 384.81 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "675941f8-7042-4438-82bf-f0940074dcbb")
+		(property "Reference" "R11"
+			(at 387.35 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 387.35 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 383.032 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b250373-5be0-4fbf-aead-281cf4451720")
+		)
+		(pin "2"
+			(uuid "f2bac35e-d6e5-4a3e-81af-29625dbe1732")
+		)
+		(instances
+			(project ""
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "R11")
 					(unit 1)
 				)
 			)
