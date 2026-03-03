@@ -11797,7 +11797,7 @@
 		)
 		(uuid "9209c650-9cd0-4bf4-802c-49c90da4a074")
 	)
-	(label "5V"
+	(label "5VIN"
 		(at 95.25 16.51 0)
 		(effects
 			(font
