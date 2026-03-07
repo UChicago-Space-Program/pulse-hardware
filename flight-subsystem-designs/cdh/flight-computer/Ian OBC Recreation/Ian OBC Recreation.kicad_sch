@@ -7953,7 +7953,7 @@
 	)
 	(rectangle
 		(start 233.68 100.33)
-		(end 312.42 180.34)
+		(end 312.42 242.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -8061,7 +8061,7 @@
 	)
 	(text "OVERVOLTAGE PROTECTION\n"
 		(exclude_from_sim no)
-		(at 260.604 177.038 0)
+		(at 259.842 239.268 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8180,6 +8180,12 @@
 		(uuid "15dad0f8-ba8b-4952-8a80-37d58f598171")
 	)
 	(junction
+		(at 298.45 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20944237-e079-4465-a99e-1d7589426dd3")
+	)
+	(junction
 		(at 88.9 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8196,6 +8202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3300567a-89fa-494e-8b0a-c802ccb9d6ff")
+	)
+	(junction
+		(at 292.1 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36ec4c53-8393-4ea6-bae2-d2f910885d53")
 	)
 	(junction
 		(at 289.56 40.64)
@@ -8276,10 +8288,22 @@
 		(uuid "9768fc67-4a4a-48f7-8d34-026fab8f927b")
 	)
 	(junction
+		(at 241.3 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dca42aa-956d-43c8-9635-1f509043ed1f")
+	)
+	(junction
 		(at 355.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a413c863-4c59-4881-99a7-f8c2c4c2e613")
+	)
+	(junction
+		(at 245.11 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af32d96e-a9d4-4f4e-9b03-5977e5daaa98")
 	)
 	(junction
 		(at 13.97 66.04)
@@ -9039,6 +9063,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 181.61) (xy 241.3 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d253b7a-2832-47d0-8001-a95567d4e20b")
+	)
+	(wire
+		(pts
 			(xy 120.65 140.97) (xy 130.81 140.97)
 		)
 		(stroke
@@ -9106,6 +9140,16 @@
 			(type default)
 		)
 		(uuid "2423af56-c223-415d-908b-f93fc9d9f143")
+	)
+	(wire
+		(pts
+			(xy 283.21 201.93) (xy 287.02 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247f1577-ce68-40e0-ae16-e69a6c11d075")
 	)
 	(wire
 		(pts
@@ -9309,6 +9353,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 196.85) (xy 245.11 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d69c6ec-d2e7-4610-bacf-00ff7f6afcac")
+	)
+	(wire
+		(pts
 			(xy 187.96 232.41) (xy 153.67 232.41)
 		)
 		(stroke
@@ -9399,6 +9453,26 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 201.93) (xy 287.02 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9b9c6c-d0d1-40d7-afea-a81fc7c6ad1f")
+	)
+	(wire
+		(pts
+			(xy 241.3 176.53) (xy 241.3 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b10a5c8-bab0-4329-a123-dc6dc749d9e9")
+	)
+	(wire
+		(pts
 			(xy 339.09 149.86) (xy 342.9 149.86)
 		)
 		(stroke
@@ -9486,6 +9560,16 @@
 			(type default)
 		)
 		(uuid "5330a5c2-0a1f-400c-9c0d-56365b30818d")
+	)
+	(wire
+		(pts
+			(xy 245.11 196.85) (xy 247.65 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c81a71-e96d-4050-888c-b29b286c937d")
 	)
 	(wire
 		(pts
@@ -9696,6 +9780,16 @@
 			(type default)
 		)
 		(uuid "7268ccca-7f63-4c62-8337-83c75b80462f")
+	)
+	(wire
+		(pts
+			(xy 241.3 181.61) (xy 279.4 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b72d00-6580-4977-b1cc-2b4711ab5a3f")
 	)
 	(wire
 		(pts
@@ -9916,6 +10010,16 @@
 			(type default)
 		)
 		(uuid "9023b38f-cf05-4988-acb5-12f4f575f0e7")
+	)
+	(wire
+		(pts
+			(xy 298.45 181.61) (xy 302.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "911b22d2-248d-4f0c-a2f6-83c4969b1866")
 	)
 	(wire
 		(pts
@@ -10219,6 +10323,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 181.61) (xy 298.45 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affc11c1-4153-42cb-a279-4a9a3d17eb25")
+	)
+	(wire
+		(pts
 			(xy 226.06 135.89) (xy 226.06 151.13)
 		)
 		(stroke
@@ -10506,6 +10620,16 @@
 			(type default)
 		)
 		(uuid "cc15d33a-b0e1-4702-a625-5cabab3380ef")
+	)
+	(wire
+		(pts
+			(xy 289.56 181.61) (xy 292.1 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1bfa5b-bbc6-467b-bf29-b0a1b83d8625")
 	)
 	(wire
 		(pts
@@ -10899,6 +11023,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 196.85) (xy 284.48 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0f2bfc-47e4-4ee2-b671-2ab41e2a2b76")
+	)
+	(wire
+		(pts
 			(xy 24.13 66.04) (xy 24.13 49.53)
 		)
 		(stroke
@@ -11129,6 +11263,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 196.85) (xy 284.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f830e3e3-180b-4270-9094-995cebf3785c")
+	)
+	(wire
+		(pts
 			(xy 317.5 76.2) (xy 339.09 76.2)
 		)
 		(stroke
@@ -11186,6 +11330,16 @@
 			(justify left bottom)
 		)
 		(uuid "0043039a-83ae-4c16-b661-61f68c991ee7")
+	)
+	(label "5V"
+		(at 302.26 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "024f248a-8093-4a87-b376-72ba083db487")
 	)
 	(label "10MhZ_STDBY"
 		(at 91.44 124.46 0)
@@ -11527,6 +11681,16 @@
 		)
 		(uuid "4a8d275c-8683-4510-aee1-094e34002dbd")
 	)
+	(label "5VIN"
+		(at 241.3 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ca5cc56-b9a5-475b-afb5-a50a941b7592")
+	)
 	(label "5V_S"
 		(at 128.27 49.53 0)
 		(effects
@@ -11797,7 +11961,7 @@
 		)
 		(uuid "9209c650-9cd0-4bf4-802c-49c90da4a074")
 	)
-	(label "5VIN"
+	(label "5V"
 		(at 95.25 16.51 0)
 		(effects
 			(font
@@ -12414,6 +12578,78 @@
 			(project ""
 				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS2400DBVR:TPS2400DBVR")
+		(at 265.43 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "039ce174-3a38-458d-a021-4f59137a1d8b")
+		(property "Reference" "U8"
+			(at 265.43 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS2400DBVR"
+			(at 265.43 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:SOT95P280X145-5N"
+			(at 265.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "1a9e944f-a22e-483f-896e-683d1ec2c842")
+		)
+		(pin "4"
+			(uuid "287a8a67-af36-4a04-900f-71532c40bc78")
+		)
+		(pin "2"
+			(uuid "33d2cb50-2141-4885-9fe6-4d88de7b86c0")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -13242,6 +13478,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AON6411")
+		(at 284.48 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c57e589-1892-463d-92d1-dc209bfe722f")
+		(property "Reference" "Q2"
+			(at 284.48 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON6411"
+			(at 284.48 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:AO_DFN-8-1EP_5.55x5.2mm_P1.27mm_EP4.12x4.6mm"
+			(at 286.385 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/res/data_sheets/AON6411.pdf"
+			(at 288.29 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-85A Id, -20V Vds, P-Channel MOSFET, DFN-8"
+			(at 284.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "66670228-2bfe-4ef1-aa63-e2da57cb7c7e")
+		)
+		(pin "3"
+			(uuid "925545c9-37c7-48fa-a65e-a5958cc58735")
+		)
+		(pin "2"
+			(uuid "24bbcae8-657f-4e17-b2ed-a8db67832849")
+		)
+		(pin "4"
+			(uuid "48516b8a-f330-48e6-94f1-3970bed55e77")
+		)
+		(pin "1"
+			(uuid "dd4484ee-6e06-47ec-b2f5-43e66d26a323")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 360.68 153.67 0)
 		(unit 1)
@@ -13940,6 +14255,73 @@
 			(project ""
 				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 245.11 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d2863c8-1e30-4196-8d76-9306539ed658")
+		(property "Reference" "TP5"
+			(at 247.65 192.2779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 194.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 250.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 245.11 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c99264-b754-409c-8641-eb4e5f6a5e20")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -16288,6 +16670,72 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
+		(at 298.45 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c38c1762-9641-4260-94c5-846dc8374705")
+		(property "Reference" "#FLG06"
+			(at 298.45 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 298.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 298.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b467763-9008-41d4-8f9f-ac0433d3b1f7")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
 		(at 95.25 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16348,6 +16796,72 @@
 			(project ""
 				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c967cb2b-93b4-49f1-9949-0543a113bbaf")
+		(property "Reference" "#PWR010"
+			(at 287.02 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6cb3387-1dd7-4236-9f95-438c6d4bead0")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16549,6 +17063,73 @@
 			(project ""
 				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 292.1 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de840934-ea05-4bf0-b614-8bb1e9b49df5")
+		(property "Reference" "TP6"
+			(at 294.64 177.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 294.64 179.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 292.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b37175-1071-42ff-a3c1-777a6dffc35b")
+		)
+		(instances
+			(project "Ian OBC Recreation"
+				(path "/cd96c2b5-08b0-4094-8278-e7bcd71ae601"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
