@@ -2034,7 +2034,7 @@
 	)
 	(text "The OBC board already\nhas 3k I2C pull up \nresistor, so none needed\nhere"
 		(exclude_from_sim no)
-		(at 75.692 115.062 0)
+		(at 84.328 102.616 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2343,6 +2343,10 @@
 		(uuid "c625fb03-b103-4372-b474-c270d0ffc74c")
 	)
 	(no_connect
+		(at 110.49 116.84)
+		(uuid "c65bef2d-0962-4a95-93ea-7f151deba587")
+	)
+	(no_connect
 		(at 123.19 104.14)
 		(uuid "c74cf932-1192-4998-a009-212a753b6efb")
 	)
@@ -2381,6 +2385,10 @@
 	(no_connect
 		(at 110.49 71.12)
 		(uuid "e08ccbee-4682-43a9-a096-604123be44ee")
+	)
+	(no_connect
+		(at 110.49 114.3)
+		(uuid "e2ef1e47-fc28-466d-acd8-48650925b543")
 	)
 	(no_connect
 		(at 189.23 106.68)
@@ -2490,16 +2498,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 110.49 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281e669f-4f58-4707-bb38-c83ad71bddbc")
-	)
-	(wire
-		(pts
 			(xy 127 127) (xy 130.81 127)
 		)
 		(stroke
@@ -2590,16 +2588,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 114.3) (xy 110.49 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d374214b-b98f-4a7f-b90a-427fdc2c7644")
-	)
-	(wire
-		(pts
 			(xy 100.33 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -2639,17 +2627,6 @@
 		)
 		(uuid "0967f006-1647-498d-84a8-ec34ed809b22")
 	)
-	(hierarchical_label "I2C1_SCL"
-		(shape input)
-		(at 99.06 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "30e2872a-f27c-4060-98ee-83788a70e7e2")
-	)
 	(hierarchical_label "CAN_P"
 		(shape input)
 		(at 99.06 66.04 180)
@@ -2671,17 +2648,6 @@
 			(justify right)
 		)
 		(uuid "94c686e5-7fe1-4136-8000-3836885a246a")
-	)
-	(hierarchical_label "I2C1_SDA"
-		(shape input)
-		(at 99.06 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96000b99-25e7-4b8a-a2bf-339a1046b3d0")
 	)
 	(hierarchical_label "CAN_N"
 		(shape input)
