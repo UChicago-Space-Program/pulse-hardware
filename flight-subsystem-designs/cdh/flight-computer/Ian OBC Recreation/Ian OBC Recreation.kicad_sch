@@ -8129,7 +8129,7 @@
 		)
 		(uuid "c3cc4766-79ff-4c87-84eb-885169c44f3e")
 	)
-	(text "RS45 BACKUP CAN"
+	(text "RS485 BACKUP CAN"
 		(exclude_from_sim no)
 		(at 380.492 177.038 0)
 		(effects

@@ -4742,7 +4742,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 MΩ"
+		(property "Value" "1 MΩ"
 			(at 69.85 78.7399 0)
 			(effects
 				(font
@@ -6073,7 +6073,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 MΩ"
+		(property "Value" "1 MΩ"
 			(at 72.39 46.9899 0)
 			(effects
 				(font
@@ -7244,7 +7244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 MΩ"
+		(property "Value" "1 MΩ"
 			(at 70.612 96.52 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 MΩ"
+		(property "Value" "1 MΩ"
 			(at 72.39 29.2099 0)
 			(effects
 				(font
