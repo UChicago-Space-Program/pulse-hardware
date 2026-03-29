@@ -299,6 +299,15 @@
 		(uuid "18e18653-f758-406f-8bc7-48ddc558942b")
 	)
 	(bus_entry
+		(at 93.98 139.7)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3301688a-3b3c-4bc5-8b36-3f82a67f4d6d")
+	)
+	(bus_entry
 		(at 69.85 105.41)
 		(size 2.54 -2.54)
 		(stroke
@@ -360,6 +369,15 @@
 			(type default)
 		)
 		(uuid "e4a89563-0578-487b-b8cb-d7b61da515aa")
+	)
+	(bus_entry
+		(at 93.98 134.62)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36da0d6-9d6e-4ea2-9825-3c5c07ea32ca")
 	)
 	(bus_entry
 		(at 69.85 116.84)
@@ -550,6 +568,16 @@
 		)
 		(uuid "4f1741dd-bd25-46b4-b6d4-8f87f51f72b3")
 	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 78.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e1c511-bf27-4e3e-99c4-d5db867bbcd1")
+	)
 	(bus
 		(pts
 			(xy 72.39 77.47) (xy 91.44 77.47)
@@ -619,6 +647,26 @@
 			(type default)
 		)
 		(uuid "83755a36-737a-4069-b4f7-3fb5cd46cc37")
+	)
+	(wire
+		(pts
+			(xy 58.42 120.65) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8996ba12-7416-40a3-84bc-51f7d589d875")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a89c9bb-f08d-435e-abdc-e075d424beab")
 	)
 	(wire
 		(pts
@@ -722,6 +770,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 124.46) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f2ad2f-ce1b-4090-aae4-161babd94145")
+	)
+	(wire
+		(pts
 			(xy 93.98 120.65) (xy 105.41 120.65)
 		)
 		(stroke
@@ -782,6 +840,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 134.62) (xy 105.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3667dc4-7a64-447c-88fd-9d5b372e5c92")
+	)
+	(wire
+		(pts
 			(xy 39.37 165.1) (xy 39.37 172.72)
 		)
 		(stroke
@@ -809,6 +877,16 @@
 			(type default)
 		)
 		(uuid "ddf21022-785a-474c-b1c0-19b5e7051115")
+	)
+	(wire
+		(pts
+			(xy 93.98 139.7) (xy 105.41 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec52bb86-f46c-4b5b-9df3-dbe198b32b31")
 	)
 	(bus
 		(pts
@@ -10622,6 +10700,26 @@
 				(justify right)
 			)
 		)
+		(pin "UART_GPS_RX" input
+			(at 58.42 120.65 0)
+			(uuid "61f30e74-da30-488c-8244-6796832abfaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_GPS_TX" input
+			(at 58.42 124.46 0)
+			(uuid "4802f545-3192-4250-96be-3834589b2577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SpaceManicPCB"
 				(path "/ab286999-0fbe-469b-b161-54b65f8cdf9b"
@@ -10717,6 +10815,26 @@
 		(pin "RS485_P" input
 			(at 105.41 128.27 180)
 			(uuid "4f0a44dc-fbc5-4aa6-94a9-d2467607a058")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_GPS_RX" input
+			(at 105.41 134.62 180)
+			(uuid "9ab14fca-a5d9-41ed-becb-9ca18f593608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_GPS_TX" input
+			(at 105.41 139.7 180)
+			(uuid "7cea32ea-b15d-476f-92fd-36d73941f989")
 			(effects
 				(font
 					(size 1.27 1.27)
