@@ -1,0 +1,5 @@
+(version 1)
+(rule "BQ79656 In Pad Vias"
+	(condition "A.memberOfFootprint('Package_QFP:Texas_TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask5x5mm_ThermalVias')")
+	(constraint hole_size (min 0.2mm))
+)
