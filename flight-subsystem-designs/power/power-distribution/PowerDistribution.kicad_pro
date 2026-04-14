@@ -261,7 +261,88 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1041400|457200|f93fa8e5-0803-4c8a-8699-0ad5227b7ff1|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1727200|304800|024a0489-3612-41c7-a408-204ee4d7eb95|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1727200|635000|65c29e01-0872-4074-8a16-f66e06fa527b|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1727200|965200|14993ca6-3c62-4b7b-8b3d-989ee104f6d2|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1943100|1371600|378b39db-ae40-4b60-b4a9-7517a34a2be5|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1943100|1460500|c4627079-308e-4a10-8c95-2afdb8ec92c8|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|1943100|1587500|9c75db3a-bab4-4de6-b9e7-43f1d7be3a65|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2095500|1346200|c22dcdd7-1032-4f17-8a13-095eb8c652f7|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2095500|1460500|c0d9c78f-ffc5-496d-95a2-2a3962057cd2|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2095500|1562100|a547e18c-2d5b-44ab-a2a8-289d68632a17|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2171700|1104900|712fef81-4bf2-4390-ba4e-a6d46315dc87|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2171700|774700|3f45ba79-785e-4bea-92fe-5aaeaf6f8847|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2298700|304800|1df02c5f-7f59-4879-904f-c4397b825079|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2298700|635000|c2ea4b83-2e28-42ae-897c-604befe6608d|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2298700|965200|5373153e-e010-4078-a2f1-9e98f2631533|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|2654300|1447800|2504b2cb-eb12-4693-a36b-7c80a8a3fcec|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|393700|1181100|fe779b08-c91e-4a68-b6a2-184abbfb11a6|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|406400|1638300|42a75f53-ab9f-449a-99b4-56f31372a919|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|965200|1358900|cd881e51-11c7-4c35-bdb9-a2f9b3226147|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ],
+      [
+        "footprint_link_issues|990600|1816100|a316950b-3d0b-4fe0-b5a4-77070264437e|00000000-0000-0000-0000-000000000000|||",
+        "checked"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -448,15 +529,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -474,7 +555,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -787,7 +868,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://UCSP_template.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../../../../../../",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
