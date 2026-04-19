@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "batteryboard-rescue") (type "Legacy") (uri "${KIPRJMOD}/batteryboard-rescue.lib") (options "") (descr ""))
+	(lib (name "batteryboard-cache") (type "Legacy") (uri "/Users/dylanhu/Documents/Git/pulse-hardware/flight-subsystem-designs/power/batteryboard-v01b/batteryboard-cache.lib") (options "") (descr "Legacy project cache library"))
+	(lib (name "Molex DuraClik 5600200630") (type "KiCad") (uri "${KIPRJMOD}/symbols/Molex DuraClik 5600200630.kicad_sym") (options "") (descr ""))
+	(lib (name "Molex 15453216 2.54mm SMD Connector") (type "KiCad") (uri "${KIPRJMOD}/symbols/Molex 15453216 2.54mm SMD Connector.kicad_sym") (options "") (descr ""))
+)

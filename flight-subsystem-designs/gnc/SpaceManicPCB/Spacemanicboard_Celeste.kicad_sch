@@ -2016,10 +2016,6 @@
 		(uuid "2ac14d83-6b28-4d5f-b531-438962c1a1e8")
 	)
 	(no_connect
-		(at 111.76 109.22)
-		(uuid "2c3d85d5-4c43-4216-80e0-46956fe93e24")
-	)
-	(no_connect
 		(at 124.46 139.7)
 		(uuid "395896f2-6df9-4826-aea7-fbc10bd8fcab")
 	)
@@ -2038,10 +2034,6 @@
 	(no_connect
 		(at 111.76 91.44)
 		(uuid "619e3e0a-492e-435e-936f-521bf7b7abc8")
-	)
-	(no_connect
-		(at 111.76 111.76)
-		(uuid "642dedbe-0090-40fa-9519-ac7afb07184d")
 	)
 	(no_connect
 		(at 111.76 116.84)
@@ -2425,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f957a4-b795-4a69-8caa-c2809080ab9e")
+	)
+	(wire
+		(pts
 			(xy 106.68 124.46) (xy 106.68 128.27)
 		)
 		(stroke
@@ -2452,6 +2454,16 @@
 			(type default)
 		)
 		(uuid "bbd215c3-6bf5-4a54-9d26-7f0862df431b")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc709ded-9038-46cb-bf56-efa4652bfe2f")
 	)
 	(wire
 		(pts
@@ -2611,6 +2623,17 @@
 			)
 		)
 	)
+	(hierarchical_label "UART_GPS_TX"
+		(shape input)
+		(at 100.33 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d1c2e45-2c22-4376-ba2d-74d51c57b680")
+	)
 	(hierarchical_label "RS485_P"
 		(shape input)
 		(at 133.35 83.82 0)
@@ -2676,6 +2699,17 @@
 			(justify left)
 		)
 		(uuid "d97549fd-63e2-422e-af83-fb283d4057dd")
+	)
+	(hierarchical_label "UART_GPS_RX"
+		(shape input)
+		(at 100.33 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e504363d-29a1-465d-ba9b-1670f5d2c9d7")
 	)
 	(symbol
 		(lib_id "power:GND")
