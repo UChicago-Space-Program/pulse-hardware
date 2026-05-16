@@ -1,0 +1,5 @@
+.history/
+gerbers/
+LaserDriver-backups/
+*.csv
+*.zip
