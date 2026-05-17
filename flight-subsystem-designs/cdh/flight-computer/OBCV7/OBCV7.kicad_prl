@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "no fab",
+    "active_layer": 7,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Ian OBC Recreation.kicad_prl",
+    "filename": "OBCV7.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
