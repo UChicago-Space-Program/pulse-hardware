@@ -1,0 +1,3984 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "18799f86-186a-4e52-9766-78e65828dd91")
+	(paper "A4")
+	(lib_symbols
+		(symbol "New_Library:ADS1115IDGST"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADS1115IDGST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DGS0010A_N"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ads1115"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADS1115IDGST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DGS0010A_N DGS0010A_M DGS0010A_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADS1115IDGST_0_1"
+				(polyline
+					(pts
+						(xy -17.78 12.7) (xy -17.78 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -17.78 -12.7) (xy 17.78 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 12.7) (xy -17.78 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -12.7) (xy 17.78 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -22.86 -5.08 0)
+					(length 5.08)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -22.86 -10.16 0)
+					(length 5.08)
+					(name "ALERT_RDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 7.62 180)
+					(length 5.08)
+					(name "AIN0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 5.08 180)
+					(length 5.08)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "AIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 7.62 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "New_Library:AMC1301DWVR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "AMC1301DWVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DWV0008A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/amc1301"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "AMC1301DWVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DWV0008A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMC1301DWVR_0_1"
+				(polyline
+					(pts
+						(xy -15.24 12.7) (xy -15.24 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -12.7) (xy 15.24 -12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 12.7) (xy -15.24 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -12.7) (xy 15.24 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "VDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "VINP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "VINN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "VOUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "VOUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "VDD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 179.07 73.66)
+		(uuid "0a359fbf-2523-4984-9b7c-3d80bac20be4")
+	)
+	(no_connect
+		(at 180.34 29.21)
+		(uuid "277c9d21-22a1-49a8-8292-85a7323da706")
+	)
+	(wire
+		(pts
+			(xy 59.69 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba0b231-a418-4cf0-8619-c908d374e563")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f43906b-16f4-4f9c-8f46-6c2888b7eb45")
+	)
+	(wire
+		(pts
+			(xy 123.19 73.66) (xy 133.35 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c475139-107f-4212-b02e-9d0fc5003891")
+	)
+	(wire
+		(pts
+			(xy 180.34 46.99) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f3cf8e-35fb-48d6-8a71-0ffd27dfd117")
+	)
+	(wire
+		(pts
+			(xy 179.07 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84279519-573e-45bf-ba7b-0704010b3cba")
+	)
+	(wire
+		(pts
+			(xy 55.88 143.51) (xy 60.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e3e60-96ee-401c-afa4-bedb5e17b3bc")
+	)
+	(wire
+		(pts
+			(xy 54.61 31.75) (xy 59.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6abc097-1373-467f-9797-0a19110678c4")
+	)
+	(wire
+		(pts
+			(xy 55.88 69.85) (xy 60.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dda88d-240a-4af1-9c8e-805855962d78")
+	)
+	(wire
+		(pts
+			(xy 124.46 29.21) (xy 134.62 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7bb57d-d329-474b-b2e0-04cff0ce09cf")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 193.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02ae577-cf7a-441d-b03a-886d1cd3bf71")
+	)
+	(wire
+		(pts
+			(xy 59.69 74.93) (xy 60.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccca5335-22d6-432e-8a94-6aed2ee62fe8")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 60.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc14379a-cb6d-48cd-bb97-829af2bce34a")
+	)
+	(label "ADC2_P"
+		(at 134.62 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "144cfa40-4734-49b9-b3e4-ca466040da13")
+	)
+	(label "ADC4_P"
+		(at 133.35 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22d10887-8851-4f06-815c-3af5bd6072c5")
+	)
+	(label "ADC3_P"
+		(at 101.6 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d2c8de5-e2d7-4665-93fe-d0144b1c8f35")
+	)
+	(label "ADC3_P"
+		(at 133.35 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ab495a6-a993-4b17-862a-e238961903f2")
+	)
+	(label "ADC1_N"
+		(at 134.62 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7901f3f2-6a28-468f-889e-76d2b2294dde")
+	)
+	(label "ADC4_N"
+		(at 133.35 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7afe039b-d0d7-41da-a487-3ca0f020e06e")
+	)
+	(label "ADC3_N"
+		(at 133.35 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82b1e85b-cbc6-40a3-a40e-6ba3d62a8bfd")
+	)
+	(label "ADC1_P"
+		(at 134.62 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82fa3450-e181-4e4e-906b-4cddd278e401")
+	)
+	(label "ADC4_P"
+		(at 101.6 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f60ba8f-63b2-420d-8029-0a8ce5ce6560")
+	)
+	(label "ADC3_N"
+		(at 101.6 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97d70d63-9dc2-4361-94f1-130bf0c0f4e1")
+	)
+	(label "ADC2_N"
+		(at 134.62 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99744ba2-2f7f-426e-bbb1-1a41507677ac")
+	)
+	(label "ADC1_N"
+		(at 100.33 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4c738ec-316b-49e7-842f-e4b1e3394dac")
+	)
+	(label "ADC1_P"
+		(at 100.33 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7e666b7-1619-41a4-b9fa-dbbeca0fe135")
+	)
+	(label "ADC4_N"
+		(at 101.6 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcee1ec5-b2e0-43b8-8608-a925a768d405")
+	)
+	(label "ADC2_N"
+		(at 101.6 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0d6e68f-2980-435f-bebd-ae5d52fb07bc")
+	)
+	(label "ADC2_P"
+		(at 101.6 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e91920d7-f4cc-4802-8825-9cf8d57227f2")
+	)
+	(global_label "STAGE2_OUT2"
+		(shape input)
+		(at 59.69 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c965cc1-60f8-4d30-9e82-8abf2fb78a48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0049 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 180.34 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "465ef146-6ed9-4291-bd0a-96423220fb64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.8847 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 179.07 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76b28dd8-392e-4181-a478-53a423d222fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6147 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "STAGE2_OUT1"
+		(shape input)
+		(at 59.69 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92b74067-4d08-4f0b-aaeb-18d0805be54a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0049 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "STAGE2_OUT4"
+		(shape input)
+		(at 60.96 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa6fb57b-befd-4d03-9b3b-a262edb1e580")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2749 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "STAGE2_OUT3"
+		(shape input)
+		(at 59.69 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0a5faff-9747-4104-b0e6-5f26cab6456b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0049 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 180.34 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d36fe603-7576-4dbd-8411-ef8bfcee0b4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.9452 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape input)
+		(at 179.07 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f71160f1-fbf2-41f8-bfa8-5182ab4c86c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6752 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "030782eb-2c6f-4402-b35f-69058d45974c")
+		(property "Reference" "#PWR041"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8037707a-72f9-4118-bc52-22139d02a98e")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "031e51c4-4690-4071-8a37-1693bc503c3b")
+		(property "Reference" "#PWR044"
+			(at 101.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 105.156 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30d76a62-d561-4d9c-a3b7-fab3b7a7392c")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ddff39f-7c02-47c2-959f-453f206bacc4")
+		(property "Reference" "#PWR022"
+			(at 60.96 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 160.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33cc567c-7c69-4a5e-a7d1-2feb5c2c53b2")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bb06e1f-6b17-4963-a16a-bb5d6ee65e8e")
+		(property "Reference" "#PWR021"
+			(at 60.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 155.194 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1a2f73a-155d-4c15-81b3-7c943f5e3b71")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db98a8c-c5bf-4495-969e-212b7683ef5e")
+		(property "Reference" "#PWR043"
+			(at 101.6 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84f2070d-5e3c-4de4-9907-7cff53a4198b")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32d2e455-4a49-47b1-93fc-93915c37031d")
+		(property "Reference" "#PWR023"
+			(at 59.69 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 51.816 48.514 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ea5e743-4477-4dd8-b201-fcb4d3e370b7")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40ea7c80-911d-4672-9f56-5db375ae054c")
+		(property "Reference" "#PWR019"
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 119.634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fde2c34e-03b5-4905-a58d-491cdeb6e133")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "437459da-154b-4a1a-97e5-673a6c19ad6f")
+		(property "Reference" "#PWR047"
+			(at 101.6 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 105.156 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c41c87a3-0ff2-4f1a-a90d-212534075d1a")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d1badb0-eb10-45ce-86e7-c62ec5dea228")
+		(property "Reference" "#PWR042"
+			(at 101.6 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddcd03ea-965e-4ba0-aca9-c36e8a05ee16")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e85c849-0299-47ec-a7b4-04d2ca74777b")
+		(property "Reference" "#PWR020"
+			(at 60.96 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe8d1401-960e-4957-825e-214a1f70da08")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "609f63df-5c6f-4c0b-bd87-baf55ce9f7f7")
+		(property "Reference" "#PWR017"
+			(at 60.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e34e35c2-07f6-4293-a366-946d1198f9b0")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:ADS1115IDGST")
+		(at 157.48 39.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6222d783-5078-4494-8928-b184b7276621")
+		(property "Reference" "U8"
+			(at 157.48 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADS1115IDGST"
+			(at 157.48 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:ADS1115"
+			(at 157.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ads1115"
+			(at 157.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "155c3dd2-2a7d-4f16-95a7-9be0fe4459de")
+		)
+		(pin "2"
+			(uuid "8365a0bd-341c-4864-baa5-299c36e9f7cd")
+		)
+		(pin "3"
+			(uuid "c579c5a1-bf59-478c-b3be-261af9c94d35")
+		)
+		(pin "4"
+			(uuid "7900b57d-4125-4caa-ac48-f35308a5b220")
+		)
+		(pin "5"
+			(uuid "297426f8-ff61-4e10-b2a2-6d4e17a1e8be")
+		)
+		(pin "6"
+			(uuid "8ae191b5-ee51-47b1-b252-8c77cd06db1e")
+		)
+		(pin "7"
+			(uuid "3ab3b952-a1c2-4dfd-8c01-5780ef236f12")
+		)
+		(pin "8"
+			(uuid "b24c298f-1be3-495b-825a-2f650a4ce4c2")
+		)
+		(pin "9"
+			(uuid "a40c76f6-23cf-4c8f-82a6-d92b55d5b5e4")
+		)
+		(pin "10"
+			(uuid "eb839861-c284-4886-acd4-82519a54ba6a")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 181.61 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65ab7a79-e8d6-4e40-8ea1-9bcfe9f83a8f")
+		(property "Reference" "#PWR051"
+			(at 181.61 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 185.166 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 181.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46b045ea-24d6-4586-8189-27902f5f2bcb")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:AMC1301DWVR")
+		(at 81.28 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c51dda-9da8-4554-b4f4-10eef6ac6d9f")
+		(property "Reference" "U11"
+			(at 81.28 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AMC1301DWVR"
+			(at 81.28 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:AMC1301"
+			(at 81.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/amc1301"
+			(at 81.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "809cc842-6bf1-4684-aac8-d0ab25fa4e4b")
+		)
+		(pin "2"
+			(uuid "c575857c-b211-465f-af89-f08a797c556b")
+		)
+		(pin "3"
+			(uuid "408cf785-2309-4638-88c8-d003c5d3425f")
+		)
+		(pin "4"
+			(uuid "61f5b0b9-2114-436a-aec4-5f42c6ddb667")
+		)
+		(pin "5"
+			(uuid "795aa552-6df2-47d0-b215-a9ee87b27c6f")
+		)
+		(pin "6"
+			(uuid "fc1094e3-69a8-4590-9f40-88471a467c2e")
+		)
+		(pin "7"
+			(uuid "d389ea70-9396-4ea2-aca4-17802a616849")
+		)
+		(pin "8"
+			(uuid "dd545249-cf5d-466f-be33-d04e5fd15e35")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:ADS1115IDGST")
+		(at 156.21 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7524973f-5233-46ff-9c2d-490b6f0910c1")
+		(property "Reference" "U13"
+			(at 156.21 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADS1115IDGST"
+			(at 156.21 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:ADS1115"
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ads1115"
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab96cd3c-b262-4f55-9cd3-e85c9035e1cc")
+		)
+		(pin "2"
+			(uuid "051a04d6-a984-4e5d-b4d9-22d27ab1e453")
+		)
+		(pin "3"
+			(uuid "b9da2f76-8660-4ea1-acf8-ed84b810e162")
+		)
+		(pin "4"
+			(uuid "1dd6b62a-23a2-4fa6-ace5-432351e0f4f5")
+		)
+		(pin "5"
+			(uuid "89989896-3819-471a-9cac-e85630316c67")
+		)
+		(pin "6"
+			(uuid "d0b2a732-3129-48fc-86b6-a2f8434f67c8")
+		)
+		(pin "7"
+			(uuid "6ddb8093-9cbc-4a31-aaff-6ec999c0b49e")
+		)
+		(pin "8"
+			(uuid "3c40aa8b-aaa5-4dff-aaa7-ae1a5650c467")
+		)
+		(pin "9"
+			(uuid "e08f39d6-5082-4e74-9021-4f60818ffbfd")
+		)
+		(pin "10"
+			(uuid "a4894ad3-3333-49c8-ab47-5c9b7f9c9584")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 55.88 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8affa56f-0a47-470c-9707-8fb1294bbf39")
+		(property "Reference" "#PWR030"
+			(at 55.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 59.436 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36892071-2ff5-4537-af20-fe62da7e36a2")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:AMC1301DWVR")
+		(at 81.28 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e96f3ec-fda7-4c18-a6e8-5eaa1f1b1d03")
+		(property "Reference" "U9"
+			(at 81.28 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AMC1301DWVR"
+			(at 81.28 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:AMC1301"
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/amc1301"
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf174e48-064a-4046-a7ab-2ece0c208371")
+		)
+		(pin "2"
+			(uuid "635db36c-5c07-4911-add7-22bac9769579")
+		)
+		(pin "3"
+			(uuid "2da47793-3904-4658-ba9b-f2aac1157964")
+		)
+		(pin "4"
+			(uuid "9115007c-da7f-4ab8-91a6-73620c216be4")
+		)
+		(pin "5"
+			(uuid "abe8a7ff-7fd8-4795-b4c5-30c82d555133")
+		)
+		(pin "6"
+			(uuid "3c58d994-e6c3-49dc-b8a3-24c521481a7c")
+		)
+		(pin "7"
+			(uuid "e1a05e1a-3e37-4eaf-9a07-6dab13b348f2")
+		)
+		(pin "8"
+			(uuid "09af710d-4df7-4a7f-acb2-b9720b587a69")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 100.33 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95746283-f817-4b5d-82d4-4511c6831c42")
+		(property "Reference" "#PWR046"
+			(at 100.33 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 103.886 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 100.33 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20301052-8393-46ac-9c38-c4d6c80c0842")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 55.88 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2123449-8ae3-48a7-8694-3a8b8d29646c")
+		(property "Reference" "#PWR031"
+			(at 55.88 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 59.436 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 55.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f9618c75-7a11-4e6e-bec7-7a60d01d36d8")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a835487b-715b-48c8-857d-13c25e0d7908")
+		(property "Reference" "#PWR053"
+			(at 193.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7df1ab5d-854a-4e5d-a1b9-13508612c5d9")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 101.6 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1d10183-750c-42c6-888b-b95acff54f23")
+		(property "Reference" "#PWR045"
+			(at 101.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 105.156 105.918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af9492c8-1026-421e-be29-d5f9dc372bf3")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 55.88 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5bc1465-2340-41d5-959b-b067c8fd2dc8")
+		(property "Reference" "#PWR033"
+			(at 55.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 59.436 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 55.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "147f8bcb-0efc-4c90-904a-f98759a38bd3")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3f61d1b-b6c9-493a-8b56-ffaa1f3a0dd2")
+		(property "Reference" "#PWR018"
+			(at 60.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 53.086 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baaa71ee-3122-461b-8585-401214d01b70")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 182.88 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5026c93-33b7-48ad-85d4-b39f42162276")
+		(property "Reference" "#PWR050"
+			(at 182.88 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 186.436 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 182.88 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df11ef8e-d412-487b-9b02-4007f57a305b")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59345b4-03f2-4e3b-929e-ed099c8dbd7e")
+		(property "Reference" "#PWR034"
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6adc0c30-5016-492d-842c-2d9331e89755")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 182.88 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5a3e1be-7f96-48ac-a813-4626c8338a87")
+		(property "Reference" "#PWR052"
+			(at 182.88 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 186.436 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 182.88 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2f347f0-a954-436d-a2a2-f06d57e9ea74")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "caec0193-a1d3-4765-bc82-426846d498ad")
+		(property "Reference" "#PWR024"
+			(at 59.69 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QUAD_GND"
+			(at 51.816 43.434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4551df02-6772-47c7-aade-3564d9b0226e")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cffa7828-19c1-44b8-b0e0-9981cecd27b2")
+		(property "Reference" "#PWR049"
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0394139c-6c62-493d-b178-6f765612e904")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:AMC1301DWVR")
+		(at 80.01 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d410ca88-5d39-456d-8c94-57f4893d68d9")
+		(property "Reference" "U12"
+			(at 80.01 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AMC1301DWVR"
+			(at 80.01 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:AMC1301"
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/amc1301"
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af891285-0c5a-4d3d-bc8c-46cce7e9ef46")
+		)
+		(pin "2"
+			(uuid "2b3808a7-594f-4117-a1cb-78cee3012ce7")
+		)
+		(pin "3"
+			(uuid "1e3b54f9-6922-40ce-a5d2-47babe578ad4")
+		)
+		(pin "4"
+			(uuid "c96da01d-f206-4926-a378-c7a71f508f09")
+		)
+		(pin "5"
+			(uuid "3e388792-c86e-47c9-b93a-1e499da66d55")
+		)
+		(pin "6"
+			(uuid "933f62ed-623b-4e50-ab11-6c09ebd8c94d")
+		)
+		(pin "7"
+			(uuid "c93e3551-0ceb-471e-a220-5299299aa9df")
+		)
+		(pin "8"
+			(uuid "9718f3d6-a836-478d-89a4-a08672ade229")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da05251c-c8b7-4c52-a303-04d2a0cd3db2")
+		(property "Reference" "#PWR048"
+			(at 124.46 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8a9857c-e212-45e8-a48b-c6c8196d7614")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:AMC1301DWVR")
+		(at 81.28 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1b06e9-ce60-4aa5-86df-0558486718af")
+		(property "Reference" "U10"
+			(at 81.28 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AMC1301DWVR"
+			(at 81.28 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Quadcell_Components:AMC1301"
+			(at 81.28 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/amc1301"
+			(at 81.28 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a442ee9d-95e9-4ce3-b9af-efddf17cfc25")
+		)
+		(pin "2"
+			(uuid "03e3fc9a-cfa7-42cd-a661-11bd6cca3a7e")
+		)
+		(pin "3"
+			(uuid "c6726ae6-6122-4598-b97f-9c55f8f39512")
+		)
+		(pin "4"
+			(uuid "0e3cfa7d-c82d-4151-a7f3-5876a3470a9f")
+		)
+		(pin "5"
+			(uuid "803577b9-ed18-487d-9494-2adacde062c3")
+		)
+		(pin "6"
+			(uuid "dda53422-04cf-4731-9504-94a2e2541388")
+		)
+		(pin "7"
+			(uuid "e7a3c367-46f3-4936-aa08-d44b92c75c46")
+		)
+		(pin "8"
+			(uuid "08f5a117-5635-4522-984e-262c5a4d27ee")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 54.61 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8551136-2cdf-4e14-a381-a59fec1d9d41")
+		(property "Reference" "#PWR029"
+			(at 54.61 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 58.166 29.718 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 54.61 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68e29d53-07a1-4650-8b8b-358c12766b70")
+		)
+		(instances
+			(project "Quadcell_Rev4"
+				(path "/bb8fe9ff-3f8e-4cf1-aca5-da20112e28b9/8a9486e1-42cf-44f7-9fa2-b7a591ec2c0f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
