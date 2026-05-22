@@ -6820,12 +6820,6 @@
 		(uuid "4ae1b6fd-9b56-47fc-a9b9-52868e7b8624")
 	)
 	(junction
-		(at 92.71 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51622438-d19b-4406-b8e6-493f2708a936")
-	)
-	(junction
 		(at 90.17 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6878,6 +6872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "854ea9f3-4ac5-4c59-aa4d-05a371d41a71")
+	)
+	(junction
+		(at 213.36 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8709a259-8188-4b2a-8f19-370e94b3b244")
 	)
 	(junction
 		(at 25.4 66.04)
@@ -7284,6 +7284,10 @@
 		(uuid "b05c52ac-01ac-46ed-b7f7-2b0278a76b51")
 	)
 	(no_connect
+		(at 88.9 22.86)
+		(uuid "b56a9f0e-4429-41cf-80f6-4a17592883e5")
+	)
+	(no_connect
 		(at 210.82 41.91)
 		(uuid "b6689b88-0475-413a-b85e-39d3bf5583b0")
 	)
@@ -7632,16 +7636,6 @@
 			(type default)
 		)
 		(uuid "19a13b11-b4c5-481a-a506-f4b7ad4ab0bf")
-	)
-	(wire
-		(pts
-			(xy 88.9 22.86) (xy 92.71 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c992a53-1123-4dea-9f03-ee07ae641f59")
 	)
 	(wire
 		(pts
@@ -8475,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 20.32) (xy 92.71 20.32)
+			(xy 88.9 20.32) (xy 96.52 20.32)
 		)
 		(stroke
 			(width 0)
@@ -8532,6 +8526,16 @@
 			(type default)
 		)
 		(uuid "7dd3279a-c7ec-42d4-84e2-43e17250cec3")
+	)
+	(wire
+		(pts
+			(xy 213.36 118.11) (xy 218.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df1a125-83b5-468a-9ed4-ce7f1d432270")
 	)
 	(wire
 		(pts
@@ -9055,16 +9059,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 20.32) (xy 96.52 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2074f40-13c0-4ecb-9453-f85f96779f7f")
-	)
-	(wire
-		(pts
 			(xy 334.01 163.83) (xy 361.95 163.83)
 		)
 		(stroke
@@ -9102,16 +9096,6 @@
 			(type default)
 		)
 		(uuid "b3b04882-ecbd-4ea3-9525-4607ae773bce")
-	)
-	(wire
-		(pts
-			(xy 92.71 22.86) (xy 92.71 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b474a964-a8fb-41d0-99f6-f3d7e5d2d7ba")
 	)
 	(wire
 		(pts
@@ -9665,7 +9649,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 218.44 118.11)
+			(xy 210.82 118.11) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -13001,6 +12985,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 213.36 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2b7716-f7aa-4cea-ad40-bc1857848333")
+		(property "Reference" "#FLG05"
+			(at 213.36 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 213.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d34e3faf-68da-4bba-8431-9efa34a2850c")
+		)
+		(instances
+			(project ""
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 389.89 198.12 0)
 		(unit 1)
@@ -14264,7 +14314,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "956b5b56-1681-48f3-a521-4b5d560c111c")
 		(property "Reference" "BT1"
 			(at 182.3085 114.3 90)
@@ -16327,6 +16376,73 @@
 			(project "OBCV7"
 				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd34d0a5-b48f-421c-962e-4b576a8b6245")
+		(property "Reference" "3V3"
+			(at 92.71 13.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 15.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 95.25 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46c2368c-642b-401c-9952-b3c570dbf465")
+		)
+		(instances
+			(project ""
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "3V3")
 					(unit 1)
 				)
 			)

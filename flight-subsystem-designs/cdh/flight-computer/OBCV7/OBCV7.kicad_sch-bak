@@ -14264,6 +14264,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "956b5b56-1681-48f3-a521-4b5d560c111c")
 		(property "Reference" "BT1"
 			(at 182.3085 114.3 90)
