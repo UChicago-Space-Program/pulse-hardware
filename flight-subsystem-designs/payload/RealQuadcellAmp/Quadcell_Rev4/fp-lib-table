@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Quadcell_Components") (type "KiCad") (uri "${KIPRJMOD}/Quadcell_Components.pretty") (options "") (descr ""))
+)
