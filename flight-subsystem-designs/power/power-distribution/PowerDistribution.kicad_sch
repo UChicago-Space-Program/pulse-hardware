@@ -34,23 +34,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 177.8 87.63)
+			(xy 166.37 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e736894-c4ef-47f5-b9c7-bcd8a809e6a9")
-	)
-	(wire
-		(pts
-			(xy 111.76 101.6) (xy 123.19 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e8ecdea-b692-4fb2-85b2-23f72fc52db1")
 	)
 	(wire
 		(pts
@@ -74,7 +64,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 104.14) (xy 177.8 104.14)
+			(xy 166.37 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -94,13 +84,33 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 71.12) (xy 177.8 71.12)
+			(xy 177.8 71.12) (xy 166.37 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3799c529-29dd-4a6e-ab41-92ed72fc8896")
+		(uuid "3d984105-ae90-4ea6-aaf8-3179365228c3")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417cab35-93a2-4d38-b638-56650da91cf5")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c54558-a4ac-4c3d-99db-3aaa510b02e6")
 	)
 	(wire
 		(pts
@@ -114,7 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 177.8 90.17)
+			(xy 166.37 92.71) (xy 177.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -124,27 +134,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 123.19 99.06)
+			(xy 166.37 121.92) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5597c9ac-7b45-4b04-a9a1-f9b1ebc86466")
+		(uuid "542960bd-9625-4c79-8205-4ea37247abc5")
 	)
 	(wire
 		(pts
-			(xy 166.37 68.58) (xy 177.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5902e55b-ff75-4bb8-8d43-9ce4e127e049")
-	)
-	(wire
-		(pts
-			(xy 166.37 85.09) (xy 177.8 85.09)
+			(xy 166.37 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -161,6 +161,16 @@
 			(type default)
 		)
 		(uuid "6cc6ff4a-cfb4-47fe-99a4-da3524b75d63")
+	)
+	(wire
+		(pts
+			(xy 111.76 106.68) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740584a6-d453-4325-9087-454d66fc5f30")
 	)
 	(wire
 		(pts
@@ -184,6 +194,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 68.58) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d856dad-5eba-4129-a7c2-11e468e600c7")
+	)
+	(wire
+		(pts
 			(xy 147.32 113.03) (xy 147.32 119.38)
 		)
 		(stroke
@@ -194,7 +214,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 106.68) (xy 177.8 106.68)
+			(xy 111.76 109.22) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbad9a0c-d38d-4b7c-8f45-e14198019c5a")
+	)
+	(wire
+		(pts
+			(xy 166.37 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -251,16 +281,6 @@
 			(type default)
 		)
 		(uuid "f47eda83-5990-49ad-b438-160543ae72f3")
-	)
-	(wire
-		(pts
-			(xy 111.76 96.52) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59980c7-2861-4cc0-9377-fd8083b7ea05")
 	)
 	(sheet
 		(at 85.09 64.77)
@@ -365,7 +385,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 81.28)
+		(at 177.8 83.82)
 		(size 26.67 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -381,7 +401,7 @@
 		)
 		(uuid "187508dd-3066-4e98-aa1b-85dcaf36b531")
 		(property "Sheetname" "Deployment"
-			(at 177.8 80.5176 0)
+			(at 177.8 83.0576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +410,7 @@
 			)
 		)
 		(property "Sheetfile" "deployment.kicad_sch"
-			(at 177.8 94.6154 0)
+			(at 177.8 97.1554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -399,7 +419,7 @@
 			)
 		)
 		(pin "BURN_1_PWM" input
-			(at 177.8 87.63 180)
+			(at 177.8 90.17 180)
 			(uuid "e3d6339d-8c4b-4873-9bf3-8a8bbb07d82c")
 			(effects
 				(font
@@ -409,7 +429,7 @@
 			)
 		)
 		(pin "MASTER_BURN_EN" input
-			(at 177.8 85.09 180)
+			(at 177.8 87.63 180)
 			(uuid "8e6b2924-6391-4ccb-bcf2-b73fa4c9fad0")
 			(effects
 				(font
@@ -419,7 +439,7 @@
 			)
 		)
 		(pin "BURN_2_PWM" input
-			(at 177.8 90.17 180)
+			(at 177.8 92.71 180)
 			(uuid "0e7f80b1-2d7c-4e90-8f60-391302b0ddf9")
 			(effects
 				(font
@@ -432,6 +452,150 @@
 			(project "PowerDistribution"
 				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 64.77)
+		(size 26.67 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19fac65c-556e-44cb-a3ad-6b621cb01473")
+		(property "Sheetname" "Switches"
+			(at 177.8 64.0076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 177.8 78.1054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3_S_EN" input
+			(at 177.8 73.66 180)
+			(uuid "a0e590ad-e7c7-4d61-b101-40e61c5f3fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_1_S_EN" input
+			(at 177.8 71.12 180)
+			(uuid "37e363b6-19da-4c2a-8243-a21f5e7a0454")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_2_S_EN" input
+			(at 177.8 68.58 180)
+			(uuid "df2f1b00-0864-442d-b224-7160c55eae1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PowerDistribution"
+				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 102.87)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e64ef40-6854-4352-ae82-05e7be8eedfd")
+		(property "Sheetname" "Charging"
+			(at 85.09 102.1076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charging.kicad_sch"
+			(at 85.09 126.3654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{CHRG_FAULT}" output
+			(at 111.76 109.22 0)
+			(uuid "72aa6f72-551a-4682-b449-55a54eee9cfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CHRG_STAT}" output
+			(at 111.76 106.68 0)
+			(uuid "f3203b92-a47e-4173-86af-d952a4a92441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSOLAR_MPPT" bidirectional
+			(at 111.76 121.92 0)
+			(uuid "6baa6a9c-c0bb-4ac1-9ae5-530d4814923e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PowerDistribution"
+				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
+					(page "5")
 				)
 			)
 		)
@@ -560,51 +724,9 @@
 				(justify right)
 			)
 		)
-		(instances
-			(project "PowerDistribution"
-				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 85.09 92.71)
-		(size 26.67 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a76f50d1-2637-4891-a606-918f64f7376d")
-		(property "Sheetname" "Switches"
-			(at 85.09 91.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "switches.kicad_sch"
-			(at 85.09 105.9946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3_S_EN" input
-			(at 111.76 96.52 0)
-			(uuid "f7c325e2-8b49-442b-8067-c761951e0871")
+		(pin "BATT_CS" bidirectional
+			(at 166.37 121.92 0)
+			(uuid "0c825653-aef2-497f-821b-928831b436e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,30 +734,20 @@
 				(justify right)
 			)
 		)
-		(pin "5V_1_S_EN" input
-			(at 111.76 99.06 0)
-			(uuid "4ba63501-9097-4299-b382-7c24c1380a3b")
+		(pin "VSOLAR_MPPT" bidirectional
+			(at 123.19 121.92 180)
+			(uuid "cafdeb7f-3f86-47a2-ae22-fac02bf42e06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "5V_2_S_EN" input
-			(at 111.76 101.6 0)
-			(uuid "b6ced975-04a5-4554-b4d4-978579d27486")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
 			(project "PowerDistribution"
 				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
-					(page "2")
+					(page "6")
 				)
 			)
 		)
@@ -695,33 +807,33 @@
 			)
 		)
 		(pin "3V3_S_EN" output
-			(at 123.19 96.52 180)
+			(at 166.37 73.66 0)
 			(uuid "0f6e4c80-dd55-45e2-8318-4b7a20e35bf7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "5V_1_S_EN" output
-			(at 123.19 99.06 180)
+			(at 166.37 71.12 0)
 			(uuid "4f666368-e94e-498e-9efa-7070fec9e0fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "5V_2_S_EN" output
-			(at 123.19 101.6 180)
+			(at 166.37 68.58 0)
 			(uuid "f718f713-6390-4d26-aec4-fffb1c6c3be0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "5V_EN" output
@@ -745,7 +857,7 @@
 			)
 		)
 		(pin "BURN_1_PWM" output
-			(at 166.37 87.63 0)
+			(at 166.37 90.17 0)
 			(uuid "cbe14105-1f05-48b0-8ba4-f5da084403d9")
 			(effects
 				(font
@@ -795,7 +907,7 @@
 			)
 		)
 		(pin "MASTER_BURN_EN" output
-			(at 166.37 85.09 0)
+			(at 166.37 87.63 0)
 			(uuid "5666c41e-95a8-48f3-b0a9-c6c79b50868f")
 			(effects
 				(font
@@ -805,7 +917,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 166.37 104.14 0)
+			(at 166.37 106.68 0)
 			(uuid "78ec58ec-8cbe-4649-a887-0f8bca028505")
 			(effects
 				(font
@@ -815,7 +927,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 166.37 106.68 0)
+			(at 166.37 109.22 0)
 			(uuid "58c07bed-fe16-4d0f-9778-ec0f93b41ec5")
 			(effects
 				(font
@@ -825,27 +937,27 @@
 			)
 		)
 		(pin "~{CHRG_FAULT}" input
-			(at 166.37 68.58 0)
+			(at 123.19 106.68 180)
 			(uuid "1a5be8c0-bb13-4798-8e15-fb85c7f1eb58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "~{CHRG_STAT}" input
-			(at 166.37 71.12 0)
+			(at 123.19 109.22 180)
 			(uuid "5f5aca68-aafd-4fa2-b2cd-0d12fbf1fa6a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "BURN_2_PWM" output
-			(at 166.37 90.17 0)
+			(at 166.37 92.71 0)
 			(uuid "f1845399-d201-4fe3-a431-443abd1a2f67")
 			(effects
 				(font
@@ -863,70 +975,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 64.77)
-		(size 26.67 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e5a3dfcb-cd7b-4560-b476-c806ed59e5ac")
-		(property "Sheetname" "Charging"
-			(at 177.8 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "charging.kicad_sch"
-			(at 177.8 75.5146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "~{CHRG_FAULT}" output
-			(at 177.8 68.58 180)
-			(uuid "5acbb9e3-4d6c-4fe7-b90a-5b8bc3d0c01f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{CHRG_STAT}" output
-			(at 177.8 71.12 180)
-			(uuid "f36709d0-0820-4630-bf2f-b26ae4865024")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PowerDistribution"
-				(path "/7c5a015a-5b4f-4b5c-9bf9-4b89ce9a73a3"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.8 100.33)
-		(size 26.67 48.26)
+		(at 177.8 102.87)
+		(size 26.67 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -941,7 +991,7 @@
 		)
 		(uuid "ef185ab7-30a8-41dd-b5fb-593db362750d")
 		(property "Sheetname" "Sensors"
-			(at 177.8 99.5676 0)
+			(at 177.8 102.1076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +1019,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 177.8 104.14 180)
+			(at 177.8 106.68 180)
 			(uuid "ece635b4-74d5-4e75-bb33-b895d6478ff8")
 			(effects
 				(font
@@ -979,7 +1029,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 177.8 106.68 180)
+			(at 177.8 109.22 180)
 			(uuid "6815a0d9-cdc4-44c8-b8a9-e4beae14b618")
 			(effects
 				(font
@@ -1041,6 +1091,16 @@
 		(pin "CS_SOL3_VIN-" bidirectional
 			(at 177.8 144.78 180)
 			(uuid "fda5d3c5-aaa4-49ce-9a98-22d29a627842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_CS" bidirectional
+			(at 177.8 121.92 180)
+			(uuid "55646e68-51f2-424b-959d-a6257e34b42e")
 			(effects
 				(font
 					(size 1.27 1.27)
