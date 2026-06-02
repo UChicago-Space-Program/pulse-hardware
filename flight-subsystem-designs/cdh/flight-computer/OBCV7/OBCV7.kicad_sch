@@ -14331,7 +14331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+		(property "Footprint" "Battery:BatteryHolder_Keystone_106_1x20mm"
 			(at 182.626 121.92 90)
 			(effects
 				(font
