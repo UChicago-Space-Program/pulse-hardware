@@ -12506,7 +12506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
+		(property "Footprint" "Footprints:TCAN337GD"
 			(at 306.07 58.42 0)
 			(effects
 				(font
