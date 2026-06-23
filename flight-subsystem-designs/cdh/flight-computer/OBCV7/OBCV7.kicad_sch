@@ -6611,7 +6611,7 @@
 		)
 		(uuid d453023f-7e37-4449-8b0b-cb001d100413)
 	)
-	(text "RS485 BACKUP CAN"
+	(text "RS485\n"
 		(exclude_from_sim no)
 		(at 381.762 177.038 0)
 		(effects
@@ -8406,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "6c720923-de1e-4f51-a328-5f9920feb92a")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 158.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8e62b3-e4f5-420c-8ce5-980967a63234")
 	)
 	(wire
 		(pts
@@ -10657,8 +10667,8 @@
 		)
 		(uuid "d90c0dc7-6bfd-4b35-a7f7-b466eea7672c")
 	)
-	(label "UART_TX"
-		(at 158.75 46.99 0)
+	(label "UART_RX"
+		(at 163.83 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10787,7 +10797,7 @@
 		)
 		(uuid "f9a33d9b-3074-4bfd-a0af-636441165c10")
 	)
-	(label "UART_RX"
+	(label "UART_TX"
 		(at 137.16 46.99 180)
 		(effects
 			(font

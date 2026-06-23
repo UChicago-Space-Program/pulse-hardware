@@ -1794,7 +1794,7 @@
 		(at 82.7 142.25 90)
 		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "CLK"
+		(property "Reference" "TP2"
 			(at 0 -2.398 90)
 			(layer "F.SilkS")
 			(uuid "01937086-2945-48b4-b1e2-3afec39ec5fa")
@@ -6704,7 +6704,7 @@
 		(at 69.06 138.29 90)
 		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "GND"
+		(property "Reference" "TP3"
 			(at 0 -2.398 90)
 			(layer "F.SilkS")
 			(uuid "1345ce89-c562-48ae-8668-741a59bc1efa")
@@ -7057,7 +7057,7 @@
 		(at 77.65 142.25 90)
 		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "WDO"
+		(property "Reference" "TP1"
 			(at 0 -2.398 90)
 			(layer "F.SilkS")
 			(uuid "395b7832-4b40-4f44-a398-3c1d54eb2fa3")
@@ -10418,7 +10418,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "/UART_RX")
+			(net 9 "/UART_TX")
 			(pinfunction "Pin_19")
 			(pintype "passive")
 			(uuid "7e6a0fcf-ed84-466a-94cc-ba81f8dcc247")
@@ -10429,7 +10429,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "/UART_TX")
+			(net 10 "/UART_RX")
 			(pinfunction "Pin_20")
 			(pintype "passive")
 			(uuid "63da9897-78a8-4f4f-a092-6114a8c25e01")

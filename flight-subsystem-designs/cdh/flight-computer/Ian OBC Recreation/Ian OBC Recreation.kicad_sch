@@ -10043,7 +10043,7 @@
 		)
 		(uuid "2e8d8045-f717-4537-b21e-1cce860c5348")
 	)
-	(label "UART_TX"
+	(label "UART_RX"
 		(at 157.48 46.99 0)
 		(effects
 			(font
@@ -10403,7 +10403,7 @@
 		)
 		(uuid "8c3f32ba-aeb9-40ae-b9c3-954be9b2e99e")
 	)
-	(label "UART_RX"
+	(label "UART_TX"
 		(at 135.89 46.99 180)
 		(effects
 			(font
