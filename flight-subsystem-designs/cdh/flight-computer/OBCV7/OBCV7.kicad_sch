@@ -5481,6 +5481,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EG1215AA:EG1215AA"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EG1215AA"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EG1215AA:SW_EG1215AA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.40mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EG1215AA/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1215AA/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "EG1215AA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "E Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EG1215AA_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_CAN_LIN:TCAN337G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6722,6 +7023,16 @@
 		)
 		(uuid "d1127bcf-dcf3-4798-be49-a0e2506c68bb")
 	)
+	(text "keep near chip"
+		(exclude_from_sim no)
+		(at 22.606 227.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8e9d46b-b557-4d5a-afce-a51bfa4a0a14")
+	)
 	(text "BEAGLEBONE\n"
 		(exclude_from_sim no)
 		(at 26.924 178.054 0)
@@ -6859,6 +7170,12 @@
 		(uuid "56352cc2-a683-4036-adef-f8fea46c3f0f")
 	)
 	(junction
+		(at 386.08 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60227286-04fc-4f11-bd8f-789fabbd1b77")
+	)
+	(junction
 		(at 96.52 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6973,6 +7290,12 @@
 		(uuid "d83f3cd1-e552-4fd2-80fc-f003a82eaf94")
 	)
 	(junction
+		(at 30.48 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc0d8d09-b313-4965-8f26-e6b1d71df8eb")
+	)
+	(junction
 		(at 361.95 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7025,6 +7348,10 @@
 		(uuid "0ee964a6-acdf-47c5-8b8f-af4aaee8bfc4")
 	)
 	(no_connect
+		(at 88.9 48.26)
+		(uuid "112f63bd-5447-429f-bb26-70effe150524")
+	)
+	(no_connect
 		(at 27.94 43.18)
 		(uuid "14266326-2b3f-4739-a96b-3b23eff28797")
 	)
@@ -7073,16 +7400,16 @@
 		(uuid "1ddfa354-e8cb-4283-92dd-58e157bcf5d4")
 	)
 	(no_connect
+		(at 93.98 248.92)
+		(uuid "281c1bb3-2034-436b-b5da-556d26a7390b")
+	)
+	(no_connect
 		(at 210.82 34.29)
 		(uuid "2eb0a985-6bd6-4b22-bdd4-c5be11af3461")
 	)
 	(no_connect
 		(at 210.82 77.47)
 		(uuid "31b83699-647f-49fd-a24a-7217e6c78a23")
-	)
-	(no_connect
-		(at 88.9 17.78)
-		(uuid "32a62a99-a75a-4b20-8911-1c277f1b2eb3")
 	)
 	(no_connect
 		(at 198.12 24.13)
@@ -7540,6 +7867,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 17.78) (xy 91.44 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e1c1a8-b110-42fa-9a03-e303b1c296b4")
+	)
+	(wire
+		(pts
 			(xy 33.02 217.17) (xy 40.64 217.17)
 		)
 		(stroke
@@ -7557,6 +7894,16 @@
 			(type default)
 		)
 		(uuid "0bda8239-fee2-4e4b-bbe1-2872b4267bf2")
+	)
+	(wire
+		(pts
+			(xy 91.44 17.78) (xy 91.44 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd18d55-8976-4080-8090-3a7fa7677518")
 	)
 	(wire
 		(pts
@@ -7647,6 +7994,16 @@
 			(type default)
 		)
 		(uuid "19a13b11-b4c5-481a-a506-f4b7ad4ab0bf")
+	)
+	(wire
+		(pts
+			(xy 78.74 246.38) (xy 78.74 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c46db72-a680-4213-baf3-a3c67ec23176")
 	)
 	(wire
 		(pts
@@ -7960,7 +8317,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 113.03) (xy 386.08 123.19)
+			(xy 386.08 113.03) (xy 386.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8007,6 +8364,16 @@
 			(type default)
 		)
 		(uuid "48d5c34b-2f23-4475-8608-51cda85da9ea")
+	)
+	(wire
+		(pts
+			(xy 99.06 240.03) (xy 99.06 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e67856-d802-4457-9fbf-673fb925895b")
 	)
 	(wire
 		(pts
@@ -8077,6 +8444,16 @@
 			(type default)
 		)
 		(uuid "4fe761fe-3e6e-45f1-97ea-9b806f646cb8")
+	)
+	(wire
+		(pts
+			(xy 386.08 114.3) (xy 393.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509dcea3-4bf9-4e19-ace4-b7eb0754a047")
 	)
 	(wire
 		(pts
@@ -8580,6 +8957,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 114.3) (xy 386.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be1ad85-db5d-4472-9efe-df8949af0176")
+	)
+	(wire
+		(pts
 			(xy 278.13 58.42) (xy 278.13 60.96)
 		)
 		(stroke
@@ -8657,6 +9044,16 @@
 			(type default)
 		)
 		(uuid "818edaca-7351-49d2-bc14-6a9d12a7e768")
+	)
+	(wire
+		(pts
+			(xy 93.98 243.84) (xy 99.06 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e81cec-2552-45b0-ba49-8a2b4baafd2e")
 	)
 	(wire
 		(pts
@@ -8880,6 +9277,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 232.41) (xy 90.17 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949e3c1a-1a9c-4539-884c-7b97f2fe2c81")
+	)
+	(wire
+		(pts
+			(xy 90.17 232.41) (xy 90.17 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956278c3-5c3b-435a-9e22-b1016d1d929b")
+	)
+	(wire
+		(pts
 			(xy 20.32 144.78) (xy 27.94 144.78)
 		)
 		(stroke
@@ -8990,7 +9407,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 219.71) (xy 43.18 219.71)
+			(xy 22.86 219.71) (xy 30.48 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9037,6 +9454,16 @@
 			(type default)
 		)
 		(uuid "a5de7f33-ba80-4cf4-80eb-3fe5aec4d09f")
+	)
+	(wire
+		(pts
+			(xy 30.48 219.71) (xy 43.18 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60e1926-7599-4c43-81bc-8a879c5539f9")
 	)
 	(wire
 		(pts
@@ -9410,16 +9837,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 93.98 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca623048-9634-4d07-9616-fc0aa9a11149")
-	)
-	(wire
-		(pts
 			(xy 386.08 125.73) (xy 394.97 125.73)
 		)
 		(stroke
@@ -9500,7 +9917,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 222.25) (xy 92.71 222.25)
+			(xy 83.82 222.25) (xy 90.17 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9587,6 +10004,16 @@
 			(type default)
 		)
 		(uuid "d630c56b-65d1-4a1a-bcb2-9d9d51d8065f")
+	)
+	(wire
+		(pts
+			(xy 30.48 219.71) (xy 30.48 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d637c3ab-bedc-4433-a43f-ce077d9bddb6")
 	)
 	(wire
 		(pts
@@ -9857,6 +10284,16 @@
 			(type default)
 		)
 		(uuid "ec05b465-95fa-480d-a28e-fa2ae6c90567")
+	)
+	(wire
+		(pts
+			(xy 91.44 16.51) (xy 100.33 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2e07ff-a932-4b26-8555-96cf338b21d4")
 	)
 	(wire
 		(pts
@@ -10198,16 +10635,6 @@
 		)
 		(uuid "2f63e68b-696b-4737-bf81-83f72f09a024")
 	)
-	(label "3V3"
-		(at 22.86 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30727633-251e-492c-83ee-00a3d4acb0f8")
-	)
 	(label "RS45B"
 		(at 334.01 163.83 0)
 		(effects
@@ -10428,6 +10855,16 @@
 		)
 		(uuid "7e179cab-de5f-4d22-b47e-2cb9be5b880d")
 	)
+	(label "WDVCC"
+		(at 22.86 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e9ccd01-5542-4cc9-8a60-7d26c90f947b")
+	)
 	(label "I2C_SCL"
 		(at 133.35 77.47 0)
 		(effects
@@ -10638,6 +11075,26 @@
 		)
 		(uuid "af203733-813c-4bf1-bd5c-2ba9f218ca4e")
 	)
+	(label "WDVCC"
+		(at 100.33 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d3b0ef-3525-4088-b435-10d3ea642ce2")
+	)
+	(label "GPIO3_20"
+		(at 99.06 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b146cd98-dbb6-4f17-97e5-da56a1bdaad7")
+	)
 	(label "3V3"
 		(at 16.51 62.23 0)
 		(effects
@@ -10737,16 +11194,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd02574d-ebd3-4d68-b8a9-2c79d2bf4c61")
-	)
-	(label "MRV"
-		(at 93.98 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce67c7d3-0c30-46cf-bc09-a3f0fe47b134")
 	)
 	(label "SW_3V3"
 		(at 146.05 82.55 180)
@@ -10867,16 +11314,6 @@
 			(justify left bottom)
 		)
 		(uuid "ded5557d-afc9-42d7-8033-73b1b5ab8775")
-	)
-	(label "GPIO3_20"
-		(at 92.71 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e0bae0c7-9572-4ac6-8e52-f7f12a50c74f")
 	)
 	(label "GPIO1_17"
 		(at 316.23 123.19 0)
@@ -12368,6 +12805,76 @@
 			(project "OBCV7"
 				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 224.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1816b1fe-b299-421e-8271-49b01ba2b253")
+		(property "Reference" "C13"
+			(at 34.29 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nf"
+			(at 34.29 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 29.5148 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9c31b9a-3cef-4ff2-b7d8-334116c4761d")
+		)
+		(pin "2"
+			(uuid "8332f3ae-1dea-46fb-8eed-999d9763fee3")
+		)
+		(instances
+			(project ""
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14080,6 +14587,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 393.7 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67fb82db-948e-4e91-a799-3887606d73af")
+		(property "Reference" "C14"
+			(at 395.478 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nf"
+			(at 395.478 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 392.7348 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 393.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5125006e-8621-4110-a278-a67e19b4908c")
+		)
+		(pin "2"
+			(uuid "53bef4ad-3811-4785-bf63-97be4cdfb24b")
+		)
+		(instances
+			(project ""
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 387.35 194.31 90)
 		(unit 1)
@@ -14554,6 +15130,198 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1215AA:EG1215AA")
+		(at 86.36 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3cdee4-a9cd-4560-b63e-73e2adb71143")
+		(property "Reference" "S1"
+			(at 86.36 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EG1215AA"
+			(at 86.36 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:SW_EG1215AA"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.40mm"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1215AA/E-Switch/view-part/?ref=eda"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1215AA/E-Switch/view-part/?ref=snap"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1215AA"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "E Switch"
+			(at 86.36 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba04c161-150b-464d-85ca-b33cb87ec352")
+		)
+		(pin "3"
+			(uuid "d7c9719d-adca-4897-bfe1-444c7a40e2a9")
+		)
+		(pin "2"
+			(uuid "c7b0ab43-837b-486b-bb69-ca51cbe7c19b")
+		)
+		(instances
+			(project ""
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 127 0)
 		(unit 1)
@@ -14823,6 +15591,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 30.48 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "994161e7-12dc-485c-abdd-ef38b79652f7")
+		(property "Reference" "#PWR027"
+			(at 30.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943a7135-ee77-4e72-930b-9a2b434289fd")
+		)
+		(instances
+			(project "OBCV7"
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 109.22 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15050,7 +15884,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX706RESA+T"
+		(property "Value" "MAX706ARESA+T"
 			(at 63.5 209.55 0)
 			(effects
 				(font
@@ -16145,6 +16979,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 393.7 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca82b07-988e-4ffc-a55c-693f09140300")
+		(property "Reference" "#PWR028"
+			(at 393.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 393.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 393.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd03777b-b03e-4d7f-b878-1a981ce93f61")
+		)
+		(instances
+			(project "OBCV7"
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 20.32 74.93 90)
 		(unit 1)
@@ -16207,6 +17107,72 @@
 			(project "OBCV7"
 				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 16.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0c03204-1152-4fb4-9a84-69e8464dd37d")
+		(property "Reference" "#FLG02"
+			(at 102.235 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 100.838 18.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445c02b7-a880-4866-b5f9-16698a768259")
+		)
+		(instances
+			(project "OBCV7"
+				(path "/f39278fd-57d9-4bf0-96b9-1349133ef8a7"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
